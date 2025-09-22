@@ -39,6 +39,7 @@ learning-journey/
 ```
 <br>
 
+
 ## Phases of Development
 
 **Phase 1: Foundations (2020–2021)**
@@ -64,6 +65,7 @@ Some code in early folders is left intentionally raw or only lightly refactored.
 
 See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major milestones and evolving code quality tagged along the way.
 <br>
+
 
 ## Quick Links
 
