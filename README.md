@@ -2,9 +2,6 @@
 
 > **Transforming a career gap into deep technical expertise, project-based learning, and modern AI pipelines.**
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
-</div>
 
 ## Executive Summary
 
@@ -17,9 +14,6 @@ This repository documents my systematic journey from domain expert in nanotechno
 
 All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%"/>
-</div>
 
 ## Repository Structure
 
@@ -42,7 +36,6 @@ learning-journey/
 ├── 08_portfolio_showcase/       # Presentable, end-to-end project demos
 ```
 
----
 
 ## Phases of Development
 
@@ -62,7 +55,6 @@ learning-journey/
 - Integrated LLMs, LangChain, generative AI
 - Competed in advanced Kaggle and NeurIPS challenges
 
----
 
 ## Raw/Unpolished Code & Growth Mindset
 
@@ -70,7 +62,6 @@ Some code in early folders is left intentionally raw or only lightly refactored.
 
 See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major milestones and evolving code quality tagged along the way.
 
----
 
 ## Quick Links
 
@@ -80,7 +71,6 @@ See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major mil
 - [Best Portfolio Projects](./08_portfolio_showcase/)
 - [GitHub Profile](https://github.com/CJRockball)
 
----
 
 ## Value Proposition
 
