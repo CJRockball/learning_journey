@@ -24,6 +24,7 @@ learning-journey/
 │
 ├── README.md                    # Executive summary and navigation
 ├── TIMELINE.md                  # Chronological list of 70+ projects
+├── Detailed Development.md      # Projects sorted by library or subject 
 ├── coursera_certificates/       # Folder for certificate PDFs
 │   └── README.md                # Summary of certifications
 │
