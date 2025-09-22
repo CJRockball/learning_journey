@@ -3,6 +3,7 @@
 > **Transforming a career gap into deep technical expertise, project-based learning, and modern AI pipelines.**
 
 
+
 ## Executive Summary
 
 This repository documents my systematic journey from domain expert in nanotechnology to full-stack, production-ready data scientist. Over five years, I completed 70+ hands-on projects, 50+ advanced certifications, and delivered modern machine learning solutions using the latest open-source libraries and cloud platforms.
@@ -13,6 +14,7 @@ This repository documents my systematic journey from domain expert in nanotechno
 - **Learning-in-Public:** Transparent record of raw code, refactoring, and skill development
 
 All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
+
 
 
 ## Repository Structure
