@@ -14,7 +14,7 @@ This repository documents my systematic journey from domain expert in nanotechno
 - **Learning-in-Public:** Transparent record of raw code, refactoring, and skill development
 
 All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
-
+<br>
 
 
 ## Repository Structure
@@ -37,7 +37,7 @@ learning-journey/
 ├── 07_modern_ml_ai/             # Modern AI (LLMs, LangChain, RAG, NLP) (2024–2025)
 ├── 08_portfolio_showcase/       # Presentable, end-to-end project demos
 ```
-
+<br>
 
 ## Phases of Development
 
@@ -56,14 +56,14 @@ learning-journey/
 **Phase 4: Modern AI (2024–2025)**
 - Integrated LLMs, LangChain, generative AI
 - Competed in advanced Kaggle and NeurIPS challenges
-
+<br>
 
 ## Raw/Unpolished Code & Growth Mindset
 
 Some code in early folders is left intentionally raw or only lightly refactored. This is *deliberate*: it documents practical learning cycles, iterative improvements, and technological catch-up after a career pivot.
 
 See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major milestones and evolving code quality tagged along the way.
-
+<br>
 
 ## Quick Links
 
@@ -72,7 +72,7 @@ See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major mil
 - [Coursera Certificates (Summary)](./coursera_certificates/README.md)
 - [Best Portfolio Projects](./08_portfolio_showcase/)
 - [GitHub Profile](https://github.com/CJRockball)
-
+<br>
 
 ## Value Proposition
 
