@@ -23,6 +23,7 @@ All raw project code is documented *as is* to reflect genuine skill progression.
 > 🚀 **[View Interactive Timeline](https://cjrockball.github.io/learning-journey/assets/timeline.html)** 
 > 
 > *Click above to see the full D3.js interactive visualization*
+<br>
 
 
 
@@ -46,7 +47,6 @@ learning-journey/
 ├── 07_modern_ml_ai/             # Modern AI (LLMs, LangChain, RAG, NLP) (2024–2025)
 ├── 08_portfolio_showcase/       # Presentable, end-to-end project demos
 ```
-<br>
 <br>
 
 
