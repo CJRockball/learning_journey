@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick Carlberg - Learning Journey Timeline</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        #timeline {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+        }
+        .tooltip {
+            position: absolute;
+            background: rgba(13, 17, 23, 0.95);
+            color: #c9d1d9;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            pointer-events: none;
+            font-size: 12px;
+            line-height: 1.4;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+            max-width: 300px;
+        }
+        .controls {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+        .filter-btn {
+            background: #21262d;
+            border: 1px solid #30363d;
+            color: #c9d1d9;
+            padding: 6px 12px;
+            margin: 2px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 11px;
+            transition: all 0.2s ease;
+        }
+        .filter-btn:hover {
+            background: #30363d;
+            transform: translateY(-1px);
+        }
+        .filter-btn.active {
+            background: #238636;
+            border-color: #238636;
+            color: white;
+        }
+        .stats {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #8b949e;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Patrick Carlberg - Data Science Learning Journey</h1>
+        <p class="subtitle">Interactive timeline showing 109+ projects across 7+ years of intensive learning (2018-2025)</p>
+        
+        <div class="stats">
+            <strong>Total Projects:</strong> 109 | <strong>Time Span:</strong> 2018-2025 | <strong>Learning Phases:</strong> 4
+        </div>
+        
+        <div class="controls">
+            <button class="filter-btn active" data-filter="all">All Projects (109)</button>
+            <button class="filter-btn" data-filter="coursework">📚 Coursework (15)</button>
+            <button class="filter-btn" data-filter="competition">🏆 Competitions (29)</button>
+            <button class="filter-btn" data-filter="ai">🤖 Modern AI (5)</button>
+            <button class="filter-btn" data-filter="web">🌐 Web Dev (15)</button>
+            <button class="filter-btn" data-filter="ml">🔬 Machine Learning (7)</button>
+            <button class="filter-btn" data-filter="dl">🧠 Deep Learning (6)</button>
+            <button class="filter-btn" data-filter="stats">📊 Statistics (3)</button>
+            <button class="filter-btn" data-filter="gpu">⚡ GPU Computing (4)</button>
+            <button class="filter-btn" data-filter="finance">💰 Finance (1)</button>
+            <button class="filter-btn" data-filter="bigdata">📈 Big Data (1)</button>
+            <button class="filter-btn" data-filter="nlp">💬 NLP (1)</button>
+            <button class="filter-btn" data-filter="other">🔧 Other (22)</button>
+        </div>
+        
+        <div id="timeline"></div>
+    </div>
+
+    <script>
+        // Project timeline data extracted from timeline_projects.txt - 109 projects spanning from 2018-2025
+        const timelineData = [
+          {date: "2018-03-01", title: "Bayesian Statistics", category: "coursework", phase: "foundations", duration: 15, description: "Bayesian Statistics, based on Richard McElreath's Statistical Rethinking textbook"},
+          {date: "2019-10-01", title: "Kalman Filter", category: "other", phase: "foundations", duration: 61, description: "Kalman Filter"},
+          {date: "2020-03-18", title: "Statistics with R Specialization", category: "coursework", phase: "foundations", duration: 8, description: "Statistics with R Specialization, Duke Univeristy"},
+          {date: "2020-03-25", title: "Machine Learning on Google Cloud", category: "coursework", phase: "foundations", duration: 21, description: "Machine Learning on Google Cloud, Google Cloud"},
+          {date: "2020-05-31", title: "Applied Data Science with Python", category: "coursework", phase: "foundations", duration: 17, description: "Applied Data Science with Python, Univerity of Michigan"},
+          {date: "2020-06-05", title: "Investment Management with Python and...", category: "coursework", phase: "foundations", duration: 6, description: "Investment Management with Python and Machine Learning, EDHEC"},
+          {date: "2020-12-08", title: "Python for Everybode", category: "coursework", phase: "foundations", duration: 9, description: "Python for Everybode, University of Michigan"},
+          {date: "2020-12-24", title: "Web Applications for Everybody", category: "coursework", phase: "foundations", duration: 15, description: "Web Applications for Everybody, University of Michigan"},
+          {date: "2021-01-29", title: "Online stock db graphs", category: "web", phase: "foundations", duration: 6, description: "Online stock db graphs, Flask/Bokeh"},
+          {date: "2021-02-14", title: "Modern Big Data Analysis with SQL", category: "coursework", phase: "foundations", duration: 6, description: "Modern Big Data Analysis with SQL, Cloudera"},
+          {date: "2021-03-03", title: "Data Visualization with Tableau", category: "coursework", phase: "foundations", duration: 5, description: "Data Visualization with Tableau, University of California Davis"},
+          {date: "2021-03-04", title: "Explore ieee-fraude dataset", category: "ml", phase: "foundations", duration: 10, description: "Explore ieee-fraude dataset"},
+          {date: "2021-03-09", title: "Statistics with Python", category: "coursework", phase: "foundations", duration: 99, description: "Statistics with Python, University of Michigan"},
+          {date: "2021-04-01", title: "Tensorflow", category: "dl", phase: "foundations", duration: 62, description: "Tensorflow TF course in 5/2021"},
+          {date: "2021-05-11", title: "Tensorflow2 for Deep Learning", category: "coursework", phase: "foundations", duration: 43, description: "Tensorflow2 for Deep Learning, Imprial College"},
+          {date: "2021-05-22", title: "Java as a Second Language", category: "coursework", phase: "foundations", duration: 4, description: "Java as a Second Language, LearnQuest"},
+          {date: "2021-06-04", title: "Machine Learning for Trading", category: "coursework", phase: "foundations", duration: 5, description: "Machine Learning for Trading, New York Institute of Finance"},
+          {date: "2021-06-10", title: "Reinforcement Learning", category: "ml", phase: "foundations", duration: 12, description: "Reinforcement Learning"},
+          {date: "2021-07-15", title: "Bayesian Statistics", category: "stats", phase: "foundations", duration: 32, description: "Bayesian Statistics, Multilevel models based on the book Data Analysis Using Regression a..."},
+          {date: "2021-09-23", title: "Million Song Database XGB model", category: "ml", phase: "foundations", duration: 6, description: "Million Song Database XGB model"},
+          {date: "2021-10-01", title: "Serve MSD online with Docker/Heroku", category: "web", phase: "foundations", duration: 12, description: "Serve MSD online with Flask"},
+          {date: "2021-10-19", title: "Sympy", category: "other", phase: "foundations", duration: 3, description: "Sympy, Symbolic python handling"},
+          {date: "2021-10-23", title: "Explore TF pretrained models like BERT", category: "dl", phase: "foundations", duration: 9, description: "Explore TF pretrained models like BERT"},
+          {date: "2021-11-03", title: "FastAPI API call Github search", category: "web", phase: "foundations", duration: 10, description: "API call Github search, API test umbrella, stock_api, forms"},
+          {date: "2021-11-28", title: "Taiwan Credit Card dataset explore...", category: "ml", phase: "foundations", duration: 31, description: "Taiwan Credit Card dataset explore MLFlow, XGB, Docker"},
+          {date: "2022-01-06", title: "Baby dashboard", category: "web", phase: "foundations", duration: 22, description: "Baby dashboard, published on Heroku"},
+          {date: "2022-02-02", title: "FastAPI login test", category: "web", phase: "foundations", duration: 3, description: "login test"},
+          {date: "2022-02-05", title: "Mandelbrot", category: "gpu", phase: "foundations", duration: 11, description: "Mandelbrot, GPU"},
+          {date: "2022-02-18", title: "Baby data explore", category: "other", phase: "foundations", duration: 6, description: "Baby data explore"},
+          {date: "2022-02-28", title: "XGB GPU test", category: "ml", phase: "foundations", duration: 3, description: "XGB GPU test, ieee-fraud-detection, santander dataset"},
+          {date: "2022-03-19", title: "Option Pricing BS", category: "finance", phase: "foundations", duration: 6, description: "Option Pricing BS, MC, GPU"},
+          {date: "2022-04-25", title: "MSD explore lr", category: "ml", phase: "foundations", duration: 44, description: "MSD explore lr, nn, xgb"},
+          {date: "2022-07-28", title: "Tips dataset", category: "web", phase: "applied", duration: 46, description: "Tips dataset, lin reg serving"},
+          {date: "2022-08-15", title: "Pytorch MNIST", category: "dl", phase: "applied", duration: 8, description: "Pytorch MNIST, GAN image generation, text data"},
+          {date: "2022-10-13", title: "GPU Cuda", category: "gpu", phase: "applied", duration: 3, description: "GPU Cuda, line_profiler, cprofiler, memory_profiler, based on book Hands-On GPU Programm..."},
+          {date: "2022-10-17", title: "PDE7", category: "other", phase: "applied", duration: 3, description: "PDE7"},
+          {date: "2022-11-02", title: "Big data with citibike (28GB) dataset...", category: "bigdata", phase: "applied", duration: 27, description: "Big data with citibike (28GB) dataset and blogs"},
+          {date: "2023-01-28", title: "food_demand", category: "ml", phase: "applied", duration: 55, description: "food_demand, large timeseries XGB"},
+          {date: "2023-04-04", title: "FastAPI", category: "web", phase: "applied", duration: 12, description: "Microservice, based on the book Microservice APIs by Jose Haro Peralta"},
+          {date: "2023-04-16", title: "FastAPI Authorization using cookies", category: "web", phase: "applied", duration: 14, description: "Authorization using cookies"},
+          {date: "2023-05-02", title: "Hr-Analytics classification Kaggle...", category: "competition", phase: "applied", duration: 18, description: "Hr-Analytics classification Kaggle dataset"},
+          {date: "2023-05-19", title: "Websockets", category: "web", phase: "applied", duration: 5, description: "Websockets"},
+          {date: "2023-05-23", title: "Mandelbrot Zoom", category: "gpu", phase: "applied", duration: 1, description: "Mandelbrot Zoom"},
+          {date: "2023-05-24", title: "Setting up WSL2 Ubuntu", category: "other", phase: "applied", duration: 1, description: "Setting up WSL2 Ubuntu"},
+          {date: "2023-05-27", title: "Iris", category: "other", phase: "applied", duration: 1, description: "Iris"},
+          {date: "2023-05-30", title: "Concrete dataset explore", category: "other", phase: "applied", duration: 1, description: "Concrete dataset explore"},
+          {date: "2023-06-08", title: "Clustering", category: "other", phase: "applied", duration: 1, description: "Clustering, Kmeans"},
+          {date: "2023-06-14", title: "Pima Indians", category: "other", phase: "applied", duration: 4, description: "Pima Indians"},
+          {date: "2023-07-18", title: "NLP", category: "nlp", phase: "applied", duration: 40, description: "NLP, based on the book Getting Started with Natural Language Processing by Ekataring Koc..."},
+          {date: "2023-09-08", title: "Singa-Rent App", category: "web", phase: "applied", duration: 36, description: "Singa-Rent App, Webscraping rental prices from 99.co. Alembic, SqlAlchemy, Selenium, Bea..."},
+          {date: "2023-10-30", title: "FastAPI security", category: "web", phase: "applied", duration: 44, description: "security, login, cookies"},
+          {date: "2023-12-28", title: "PDE", category: "other", phase: "production", duration: 23, description: "PDE, Finite difference, book Vector analysis div,grad,curl and all that - h.m. schey"},
+          {date: "2024-01-20", title: "Cython", category: "other", phase: "production", duration: 18, description: "Cython, based on book High Performance Python Micha Gorelick"},
+          {date: "2024-02-07", title: "Statistics", category: "stats", phase: "production", duration: 38, description: "Statistics, Poison point process, SDE, based on book Probability Theory and Stochastic P..."},
+          {date: "2024-03-21", title: "Time series statistics", category: "stats", phase: "production", duration: 17, description: "Time series statistics, based on the book Multivariate Time Series Analysis and Applicat..."},
+          {date: "2024-04-07", title: "XGB for large multiple timeseries", category: "ml", phase: "production", duration: 9, description: "XGB for large multiple timeseries, based on Modern Time Series Forecasting with Python b..."},
+          {date: "2024-04-19", title: "Arima/ML", category: "other", phase: "production", duration: 19, description: "Arima/ML"},
+          {date: "2024-05-10", title: "Exploring over/under 50k salary dataset", category: "other", phase: "production", duration: 9, description: "Exploring over/under 50k salary dataset"},
+          {date: "2024-05-21", title: "Kaggle Playground s4e5", category: "competition", phase: "production", duration: 3, description: "Kaggle Playground s4e5"},
+          {date: "2024-06-03", title: "DSGE models", category: "other", phase: "production", duration: 2, description: "DSGE models"},
+          {date: "2024-06-07", title: "Pytorch", category: "dl", phase: "production", duration: 7, description: "Pytorch"},
+          {date: "2024-06-19", title: "Pytorch RNNs Timeseries", category: "dl", phase: "production", duration: 5, description: "Pytorch RNNs Timeseries"},
+          {date: "2024-06-26", title: "Pytorch Embeddings", category: "dl", phase: "production", duration: 2, description: "Pytorch Embeddings"},
+          {date: "2024-07-01", title: "Pytorch GAN", category: "dl", phase: "production", duration: 1, description: "Pytorch GAN"},
+          {date: "2024-07-01", title: "Categorical Statistics (Binomial...", category: "other", phase: "production", duration: 4, description: "Categorical Statistics (Binomial, Multinomial, Poisson)"},
+          {date: "2024-07-14", title: "Pytorch on Kaggle Playground s4e7...", category: "competition", phase: "production", duration: 18, description: "Pytorch on Kaggle Playground s4e7 Insurance XGB/PyTorch"},
+          {date: "2024-08-01", title: "Kaggle Playground s4e8", category: "competition", phase: "production", duration: 3, description: "Kaggle Playground s4e8"},
+          {date: "2024-08-05", title: "Kaggle Playground s4e8", category: "competition", phase: "production", duration: 3, description: "Kaggle Playground s4e8"},
+          {date: "2024-08-15", title: "Kaggle Playground s4e8", category: "competition", phase: "production", duration: 4, description: "Kaggle Playground s4e8"},
+          {date: "2024-08-26", title: "Kaggle NeurIPS - Ariel Data Challenge...", category: "competition", phase: "production", duration: 12, description: "Kaggle NeurIPS - Ariel Data Challenge 2024"},
+          {date: "2024-09-04", title: "Kaggle Playground s4e9", category: "competition", phase: "production", duration: 7, description: "Kaggle Playground s4e9"},
+          {date: "2024-09-15", title: "Kaggle Playground s4e9", category: "competition", phase: "production", duration: 5, description: "Kaggle Playground s4e9"},
+          {date: "2024-09-25", title: "Kaggle Playground s4e9", category: "competition", phase: "production", duration: 1, description: "Kaggle Playground s4e9"},
+          {date: "2024-10-01", title: "Kaggle Playground s4e10", category: "competition", phase: "production", duration: 1, description: "Kaggle Playground s4e10"},
+          {date: "2024-10-06", title: "Kaggle Playground s4e10", category: "competition", phase: "production", duration: 9, description: "Kaggle Playground s4e10"},
+          {date: "2024-10-14", title: "Web Scraping/DB/FastAPI project", category: "web", phase: "production", duration: 12, description: "Web Scraping/DB project"},
+          {date: "2024-10-17", title: "Kaggle Jane Street Time series...", category: "competition", phase: "production", duration: 16, description: "Kaggle Jane Street Time series competition"},
+          {date: "2024-11-05", title: "Kaggle Playground s4e11", category: "competition", phase: "production", duration: 14, description: "Kaggle Playground s4e11"},
+          {date: "2024-12-11", title: "Kaggle Playground s4e12", category: "competition", phase: "production", duration: 4, description: "Kaggle Playground s4e12"},
+          {date: "2024-12-15", title: "Kids online store", category: "web", phase: "production", duration: 2, description: "Kids online store"},
+          {date: "2024-12-18", title: "Kaggle Playground s4e12", category: "competition", phase: "production", duration: 6, description: "Kaggle Playground s4e12"},
+          {date: "2024-12-31", title: "Survival models in Kaggle CIBMTR...", category: "competition", phase: "production", duration: 25, description: "Survival models in Kaggle CIBMTR competition"},
+          {date: "2025-01-26", title: "Tabtransformer", category: "other", phase: "production", duration: 1, description: "Tabtransformer"},
+          {date: "2025-02-01", title: "Kaggle Playground s5e2", category: "competition", phase: "production", duration: 5, description: "Kaggle Playground s5e2"},
+          {date: "2025-02-08", title: "Kaggle Playground s4e8 TabTranform", category: "competition", phase: "production", duration: 1, description: "Kaggle Playground s4e8 TabTranform"},
+          {date: "2025-02-12", title: "Kaggle CIBMTR", category: "competition", phase: "production", duration: 8, description: "Kaggle CIBMTR"},
+          {date: "2025-02-25", title: "Python Transformers for tabular data", category: "ai", phase: "modern", duration: 28, description: "Python Transformers for tabular data, Kaggle RNA competition"},
+          {date: "2025-02-26", title: "Kaggle Playground s5e2", category: "competition", phase: "modern", duration: 3, description: "Kaggle Playground s5e2"},
+          {date: "2025-03-25", title: "LangGraph", category: "ai", phase: "modern", duration: 9, description: "LangGraph, LangChain, OLlama"},
+          {date: "2025-04-04", title: "Kaggle/Google Gen AI course", category: "competition", phase: "modern", duration: 18, description: "Kaggle/Google Gen AI course, Keystone:"},
+          {date: "2025-04-07", title: "Kaggle Playground s5e4", category: "competition", phase: "modern", duration: 2, description: "Kaggle Playground s5e4"},
+          {date: "2025-04-19", title: "Kaggle Playgroun s5e4", category: "competition", phase: "modern", duration: 7, description: "Kaggle Playgroun s5e4"},
+          {date: "2025-04-25", title: "LangGraph based on book The Complete...", category: "ai", phase: "modern", duration: 4, description: "LangGraph based on book The Complete LangGraph Blueprint by Karanja Maina James Data on K..."},
+          {date: "2025-05-01", title: "Kaggle Playground s5e5 Feature...", category: "competition", phase: "modern", duration: 8, description: "Kaggle Playground s5e5 Feature Engineering"},
+          {date: "2025-05-09", title: "LangChain/LangGraph based on book...", category: "ai", phase: "modern", duration: 8, description: "LangChain/LangGraph based on book Learning Langchain by Mayo Oshin"},
+          {date: "2025-05-19", title: "Kaggle Playground s5e5 Feature...", category: "competition", phase: "modern", duration: 2, description: "Kaggle Playground s5e5 Feature Engineering"},
+          {date: "2025-05-21", title: "Finance Exploring Perplexity", category: "other", phase: "modern", duration: 6, description: "Finance Exploring Perplexity"},
+          {date: "2025-05-28", title: "Kaggle Playground s5e6 FT-Transform", category: "competition", phase: "modern", duration: 3, description: "Kaggle Playground s5e6 FT-Transform"},
+          {date: "2025-06-01", title: "Travel", category: "other", phase: "modern", duration: 27, description: "Travel"},
+          {date: "2025-06-28", title: "Kaggle Playground s5e6 FT-Transform", category: "competition", phase: "modern", duration: 3, description: "Kaggle Playground s5e6 FT-Transform"},
+          {date: "2025-07-04", title: "Streamlit rag chat", category: "ai", phase: "modern", duration: 11, description: "Streamlit rag chat"},
+          {date: "2025-07-15", title: "Fastapi rag chat", category: "web", phase: "modern", duration: 3, description: "Fastapi rag chat"},
+          {date: "2025-07-18", title: "FastAPI for ml serving", category: "web", phase: "modern", duration: 5, description: "for ml serving"},
+          {date: "2025-07-22", title: "Adding Grafana/Prometheus to the ml...", category: "web", phase: "modern", duration: 11, description: "Adding Grafana/Prometheus to the ml endpoint"},
+          {date: "2025-08-02", title: "Bus App", category: "other", phase: "modern", duration: 4, description: "Bus App, show count down time to next bus"},
+          {date: "2025-08-06", title: "Update Kids Playstore", category: "other", phase: "modern", duration: 3, description: "Update Kids Playstore"},
+          {date: "2025-08-12", title: "Econ game", category: "other", phase: "modern", duration: 4, description: "Econ game"},
+          {date: "2025-08-20", title: "Set up Perplexity API", category: "other", phase: "modern", duration: 1, description: "Set up Perplexity API"},
+          {date: "2025-09-11", title: "Ice-cream Store with Gen-AI", category: "ai", phase: "modern", duration: 1, description: "Ice-cream Store with Gen-AI"}
+        ];
+
+        // Updated category colors including all new categories
+        const categoryColors = {
+            "web": "#58a6ff",
+            "ml": "#f85149", 
+            "dl": "#a5a5f8",
+            "stats": "#f0883e",
+            "gpu": "#3fb950",
+            "finance": "#56d364",
+            "bigdata": "#7c3aed",
+            "nlp": "#ffa657",
+            "competition": "#d2a8ff",
+            "ai": "#ff7b72",
+            "coursework": "#79c0ff",
+            "other": "#8b949e"
+        };
+
+        const phaseColors = {
+            "foundations": "#0969da",
+            "applied": "#1f6feb", 
+            "production": "#7c3aed",
+            "modern": "#d2a8ff"
+        };
+
+        // Set up dimensions
+        const container = d3.select('#timeline');
+        const margin = {top: 50, right: 200, bottom: 80, left: 120};
+        const width = 1100 - margin.left - margin.right;
+        const height = 500 - margin.top - margin.bottom;
+
+        // Create SVG
+        const svg = container
+            .append('svg')
+            .attr('width', width + margin.left + margin.right)
+            .attr('height', height + margin.top + margin.bottom);
+
+        const g = svg.append('g')
+            .attr('transform', `translate(${margin.left},${margin.top})`);
+
+        // Parse dates
+        const parseDate = d3.timeParse("%Y-%m-%d");
+        timelineData.forEach(d => {
+            d.date = parseDate(d.date);
+        });
+
+        // Set up scales
+        const xScale = d3.scaleTime()
+            .domain(d3.extent(timelineData, d => d.date))
+            .range([0, width]);
+
+        const yScale = d3.scaleBand()
+            .domain(['foundations', 'applied', 'production', 'modern'])
+            .range([0, height])
+            .padding(0.2);
+
+        // Create timeline axis
+        const xAxis = d3.axisBottom(xScale)
+            .tickFormat(d3.timeFormat("%Y"))
+            .tickSizeOuter(0);
+
+        g.append('g')
+            .attr('class', 'x-axis')
+            .attr('transform', `translate(0,${height})`)
+            .call(xAxis)
+            .selectAll('text')
+            .style('fill', '#c9d1d9');
+
+        g.select('.x-axis')
+            .selectAll('path, line')
+            .style('stroke', '#30363d');
+
+        // Add phase labels
+        g.selectAll('.phase-label')
+            .data(['foundations', 'applied', 'production', 'modern'])
+            .enter()
+            .append('text')
+            .attr('class', 'phase-label')
+            .attr('x', -10)
+            .attr('y', d => yScale(d) + yScale.bandwidth()/2)
+            .attr('dy', '0.35em')
+            .style('text-anchor', 'end')
+            .style('font-weight', 'bold')
+            .style('font-size', '14px')
+            .style('fill', '#c9d1d9')
+            .text(d => d.charAt(0).toUpperCase() + d.slice(1));
+
+        // Add phase background bars
+        g.selectAll('.phase-bg')
+            .data(['foundations', 'applied', 'production', 'modern'])
+            .enter()
+            .append('rect')
+            .attr('class', 'phase-bg')
+            .attr('x', 0)
+            .attr('y', d => yScale(d))
+            .attr('width', width)
+            .attr('height', yScale.bandwidth())
+            .style('fill', d => phaseColors[d])
+            .style('opacity', 0.1);
+
+        // Create tooltip
+        const tooltip = d3.select('body').append('div')
+            .attr('class', 'tooltip')
+            .style('opacity', 0);
+
+        // Add project circles
+        const projects = g.selectAll('.project')
+            .data(timelineData)
+            .enter()
+            .append('circle')
+            .attr('class', 'project')
+            .attr('cx', d => xScale(d.date))
+            .attr('cy', d => yScale(d.phase) + yScale.bandwidth()/2)
+            .attr('r', d => Math.max(4, Math.min(12, d.duration/4)))
+            .style('fill', d => categoryColors[d.category])
+            .style('opacity', 0.8)
+            .style('cursor', 'pointer')
+            .style('stroke', '#c9d1d9')
+            .style('stroke-width', 0.5)
+            .on('mouseover', function(event, d) {
+                tooltip.transition().duration(200).style('opacity', .9);
+                tooltip.html(`
+                    <strong>${d.title}</strong><br/>
+                    <em>${d.description}</em><br/>
+                    <strong>Date:</strong> ${d3.timeFormat("%B %Y")(d.date)}<br/>
+                    <strong>Duration:</strong> ${d.duration} days<br/>
+                    <strong>Category:</strong> ${d.category}<br/>
+                    <strong>Phase:</strong> ${d.phase}
+                `)
+                .style('left', (event.pageX + 10) + 'px')
+                .style('top', (event.pageY - 28) + 'px');
+                
+                d3.select(this)
+                    .transition()
+                    .duration(100)
+                    .attr('r', d => Math.max(6, Math.min(16, d.duration/3)))
+                    .style('opacity', 1);
+            })
+            .on('mouseout', function(d) {
+                tooltip.transition().duration(500).style('opacity', 0);
+                d3.select(this)
+                    .transition()
+                    .duration(100)
+                    .attr('r', d => Math.max(4, Math.min(12, d.duration/4)))
+                    .style('opacity', 0.8);
+            });
+
+        // Add legend
+        const legend = svg.append('g')
+            .attr('class', 'legend')
+            .attr('transform', `translate(${width + margin.left + 20}, ${margin.top})`);
+
+        const categories = Object.keys(categoryColors);
+        const legendItems = legend.selectAll('.legend-item')
+            .data(categories)
+            .enter()
+            .append('g')
+            .attr('class', 'legend-item')
+            .attr('transform', (d, i) => `translate(0, ${i * 22})`);
+
+        legendItems.append('circle')
+            .attr('cx', 8)
+            .attr('cy', 0)
+            .attr('r', 6)
+            .style('fill', d => categoryColors[d]);
+
+        legendItems.append('text')
+            .attr('x', 20)
+            .attr('y', 0)
+            .attr('dy', '0.35em')
+            .style('font-size', '11px')
+            .style('fill', '#c9d1d9')
+            .text(d => d);
+
+        // Add animation on load
+        projects
+            .style('opacity', 0)
+            .transition()
+            .duration(100)
+            .delay((d, i) => i * 30)
+            .style('opacity', 0.8);
+
+        // Filter functionality
+        d3.selectAll('.filter-btn').on('click', function() {
+            const filter = d3.select(this).attr('data-filter');
+            
+            // Update button states
+            d3.selectAll('.filter-btn').classed('active', false);
+            d3.select(this).classed('active', true);
+            
+            // Filter projects
+            projects
+                .style('opacity', d => {
+                    if (filter === 'all') return 0.8;
+                    return d.category === filter ? 0.8 : 0.15;
+                })
+                .style('pointer-events', d => {
+                    if (filter === 'all') return 'all';
+                    return d.category === filter ? 'all' : 'none';
+                });
+        });
+
+    </script>
+</body>
+</html>
