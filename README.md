@@ -66,6 +66,100 @@ learning-journey/
 - Competed in advanced Kaggle and NeurIPS challenges
 <br>
 
+
+## Featured Code Snippets
+
+<details>
+<summary><b>🐍 Phase 1: Early Python (2020)</b></summary>
+
+```python
+# First data visualization - humble beginnings
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('stock_data.csv')
+df['price'].plot(title='My First Stock Chart')
+plt.show()
+```
+</details>
+
+<details>
+<summary><b>🤖 Phase 2: Machine Learning Pipeline (2021)</b></summary>
+
+```python
+# XGBoost model with proper validation
+from xgboost import XGBClassifier
+from sklearn.model_selection import cross_val_score
+
+model = XGBClassifier(
+    n_estimators=1000,
+    max_depth=6,
+    learning_rate=0.1,
+    subsample=0.8,
+    random_state=42
+)
+
+scores = cross_val_score(model, X_train, y_train, cv=5, scoring='roc_auc')
+print(f"CV AUC: {scores.mean():.4f} (+/- {scores.std() * 2:.4f})")
+```
+</details>
+
+<details>
+<summary><b>🚀 Phase 3: Production FastAPI (2022-2023)</b></summary>
+
+```python
+# Full-stack ML serving with FastAPI
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+import torch
+import asyncio
+
+app = FastAPI(title="ML Model API", version="2.0.0")
+
+class PredictionRequest(BaseModel):
+    features: List[float]
+    model_version: str = "v1.2"
+
+@app.post("/predict")
+async def predict(request: PredictionRequest):
+    try:
+        model = await load_model_async(request.model_version)
+        prediction = model.predict(torch.tensor(request.features))
+        return {"prediction": prediction.item(), "confidence": 0.95}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+```
+</details>
+
+<details>
+<summary><b>🧠 Phase 4: Modern AI Integration (2024-2025)</b></summary>
+
+```python
+# LangChain RAG system with custom retrieval
+from langchain.vectorstores import Chroma
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.chains import RetrievalQA
+
+class CustomRAGSystem:
+    def __init__(self, docs_path: str):
+        self.embeddings = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        )
+        self.vectorstore = Chroma.from_documents(
+            documents=self.load_documents(docs_path),
+            embedding=self.embeddings
+        )
+        self.qa_chain = RetrievalQA.from_chain_type(
+            llm=self.setup_llm(),
+            retriever=self.vectorstore.as_retriever(search_kwargs={"k": 3})
+        )
+    
+    async def query(self, question: str) -> str:
+        return await self.qa_chain.arun(question)
+```
+</details>
+<br>
+
 ## Raw/Unpolished Code & Growth Mindset
 
 Some code in early folders is left intentionally raw or only lightly refactored. This is *deliberate*: it documents practical learning cycles, iterative improvements, and technological catch-up after a career pivot.
