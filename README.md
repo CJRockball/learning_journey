@@ -20,7 +20,7 @@ All raw project code is documented *as is* to reflect genuine skill progression.
 
 ## Interactive Project Timeline
 
-> 🚀 **[View Interactive Timeline](https://cjrockball.github.io/learning_journey/assets/timeline.html)**
+> 🚀 **[View Interactive Timeline](https://cjrockball.github.io/learning_journey/assets/timeline-complete.html)**
 > 
 > *Click above to see the full D3.js interactive visualization*
 <br>
