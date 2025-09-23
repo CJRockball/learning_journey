@@ -15,6 +15,8 @@ This repository documents my systematic journey from domain expert in nanotechno
 
 All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
 <br>
+<br>
+
 
 ## Interactive Project Timeline
 
@@ -44,6 +46,7 @@ learning-journey/
 ├── 07_modern_ml_ai/             # Modern AI (LLMs, LangChain, RAG, NLP) (2024–2025)
 ├── 08_portfolio_showcase/       # Presentable, end-to-end project demos
 ```
+<br>
 <br>
 
 
@@ -165,6 +168,7 @@ class CustomRAGSystem:
 Some code in early folders is left intentionally raw or only lightly refactored. This is *deliberate*: it documents practical learning cycles, iterative improvements, and technological catch-up after a career pivot.
 
 See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major milestones and evolving code quality tagged along the way.
+<br>
 <br>
 
 
