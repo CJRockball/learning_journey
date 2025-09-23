@@ -16,6 +16,22 @@ This repository documents my systematic journey from domain expert in nanotechno
 All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
 <br>
 
+## Interactive Project Timeline
+
+> 🚀 **[View Interactive Timeline](https://cjrockball.github.io/learning-journey-timeline)** 
+> 
+> *Click above to see the full D3.js interactive visualization*
+
+![Timeline Preview](https://raw.githubusercontent.com/CJRockball/learning-journey/main/assets/timeline-preview.png)
+
+**Timeline Features:**
+- **Interactive hover tooltips** with project details
+- **Color-coded by technology** (Python=blue, ML=red, AI=purple)
+- **Bubble size indicates project duration** 
+- **Four learning phases** from foundations to modern AI
+- **Zoom & filter capabilities**
+
+
 ## Repository Structure
 
 ```shell
