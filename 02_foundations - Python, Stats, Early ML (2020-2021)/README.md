@@ -10,14 +10,18 @@ At university I studied a lot of math and computer science. I now started applyi
 
 ## Key Projects
 
-### [Project Name] ([Date Range])
+### Stock Database and Viz (11/2020)
+**Technologies:** Flask, SQLite, Yahoo Finance
+**Description:** The goal was to practice backend/frontend, integrating database, practice some portfolio math
+**Learning Focus:** The main take away was starting to use databases for storing data
+**Status:** https://github.com/CJRockball/Stock_DB
+
+### [Another Project] ([Date Range])
 **Technologies:** [List of tools used]
 **Description:** [Brief project summary]
 **Learning Focus:** [What this project taught you]
 **Status:** [Complete/Raw Code/Documentation Needed]
 
-### [Another Project] ([Date Range])
-[Same format as above]
 
 ## Technologies Mastered
 - **Programming:** Python, Java, SQL, PHP, R, Tableau
@@ -35,4 +39,5 @@ At university I studied a lot of math and computer science. I now started applyi
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
