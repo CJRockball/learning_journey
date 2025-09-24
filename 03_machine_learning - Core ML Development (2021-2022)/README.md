@@ -1,12 +1,12 @@
-# [Phase Name] - [Time Period]
+# Applied ML - Phase 2 - (2021-2022)
 
 ## Phase Overview
-[Brief description of this learning phase and its objectives]
+Focus on different aspects of supervised learning. Trying different frameworks like gradient boosted trees and neural networks on classification and regression problems. Example of datasets include Tawain Credit card, ieee-fraud and MNIST
 
 ## Learning Objectives
-- [Primary skill you aimed to develop]
-- [Secondary technologies explored]  
-- [Progression from previous phase]
+- Primary focus was to clean, model and explain data
+- Secondary to serve a model with FastAPI
+- Established basic approach to working with data and modeling
 
 ## Key Projects
 
@@ -20,14 +20,14 @@
 [Same format as above]
 
 ## Technologies Mastered
-- **Programming:** [Languages/frameworks]
-- **Data Science:** [ML libraries, statistical tools]
-- **Infrastructure:** [Deployment, cloud, databases]
+- **Programming:** Python, HTML, GPU
+- **Data Science:** Tensorflow, XGBoost, LGB, Scikit Learn, Pandas, Numpy, Matplotlib, Bokeh, Shap, ELI5, 
+- **Infrastructure:** FastAPI, Docker and deployment on Heroku
 
 ## Progression Notes
-- **From Previous Phase:** [How you built on prior learning]
-- **Challenges Overcome:** [Key technical hurdles solved]
-- **Next Phase Setup:** [How this prepared you for next level]
+- **From Previous Phase:** I had prior experience with all methods, but applied them to larger datsets and work through the problems thoroughly on my own
+- **Challenges Overcome:** Mentally working with larger datasets that you can't just plot 
+- **Next Phase Setup:** Once you accept that you can't "see" the whole dataset, the only limitation you have is the RAM, and that can be overcome with dask.
 
 ## Code Status & Next Steps
 ⚠️ **Note:** Some code in this phase is raw/unstructured from active learning period
@@ -35,3 +35,4 @@
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
