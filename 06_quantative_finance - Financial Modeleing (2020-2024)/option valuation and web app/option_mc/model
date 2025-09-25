@@ -1,0 +1,24 @@
+digraph {
+	mu [label="mu
+~
+Normal"]
+	nu [label="nu
+~
+Exponential"]
+	sigma [label="sigma
+~
+Exponential"]
+	subgraph "cluster1,219" {
+		r [label="r
+~
+StudentT" style=filled]
+		logs [label="logs
+~
+GaussianRandomWalk"]
+		label="1,219" labeljust=r labelloc=b style=rounded
+	}
+	sigma -> logs
+	mu -> r
+	logs -> r
+	nu -> r
+}

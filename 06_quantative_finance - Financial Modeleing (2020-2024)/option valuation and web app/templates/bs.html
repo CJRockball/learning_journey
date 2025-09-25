@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} 
+<title>BS Data</title>
+
+{% endblock %}
+
+{% block content %}
+<h1>Options Data</h1>
+
+<form method="post">
+    <h3>Add data</h3></p>
+    <table>
+        <tr>
+    <td>S0    </td><td><input type="text" name="S0" value=100></td></tr>
+    <td>K     </td><td><input type="text" name="K" value=100></td></tr>
+    <td>r     </td><td><input type="text" name="r" value=0.1></td></tr>
+    <td>sigma </td><td><input type="text" name="sigma" value=0.3></td></tr>
+    <td>T     </td><td><input type="text" name="T" value=1></td></tr>
+    </table></p>
+    <input id="submit" type="submit" name="submit" value="Submit">
+</form>
+
+{% endblock %}

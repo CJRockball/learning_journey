@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %} 
+<title>BS Data</title>
+<style>
+body {
+    background-color:rgba(117,190,255, 0.99); 
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Options Data</h1>
+
+<form method="post">
+    <h3>Add data</h3></p>
+    <table>
+        <tr>
+    <td>S0    </td><td><input type="text" name="S0" value="{{ S0  or '' }}"></td></tr>
+    <td>K     </td><td><input type="text" name="K" value="{{ K  or '' }}"></td></tr>
+    <td>r     </td><td><input type="text" name="r" value="{{ r  or '' }}"></td></tr>
+    <td>sigma </td><td><input type="text" name="sigma" value="{{ sigma  or '' }}"></td></tr>
+    <td>T     </td><td><input type="text" name="T" value="{{ T  or '' }}"></td></tr>
+    </table></p>
+    <input id="submit" type="submit" name="submit" value="Submit">
+    <input id="reset" type="submit" name="submit" value="Reset">
+</form>
+
+<ul>
+    <li>Call price {{ call }}</li>
+    <li>Put price {{ put }} </li>
+  </ul> 
+
+{% endblock %}
