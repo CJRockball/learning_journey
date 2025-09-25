@@ -11,13 +11,10 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 ## Key Projects
 
 ### [Project Name] ([Date Range])
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
-
-### [Another Project] ([Date Range])
-[Same format as above]
+**Technologies:** XGboost, MLFlow, Shap
+**Description:** Classification with ETL
+**Learning Focus:** Learning to work through a datset, Separate functionality, 
+**Status:** This is raw code, need refactoring
 
 ## Technologies Mastered
 - **Programming:** Python, HTML, GPU
@@ -35,5 +32,6 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
