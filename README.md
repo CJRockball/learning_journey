@@ -175,7 +175,7 @@ See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major mil
 ## Quick Links
 
 - [Complete Project Timeline](./TIMELINE.md): All projects, with dates and themes
-- [Group Timeline – by Tech/Library](./Make%20a%20md%20file.md)
+- [Group Timeline – by Tech/Library](./GroupdedTimeline.md)
 - [Coursera Certificates (Summary)](./coursera_certificates/README.md)
 - [Best Portfolio Projects](./08_portfolio_showcase/)
 - [GitHub Profile](https://github.com/CJRockball)
