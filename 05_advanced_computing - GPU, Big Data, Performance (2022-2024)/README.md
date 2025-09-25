@@ -16,9 +16,6 @@ Performance optimization is important especially with an interpreted language li
 **Learning Focus:** Learn how to use CUDA for calculations
 **Status:** Complete
 
-### [Another Project] ([Date Range])
-[Same format as above]
-
 ## Technologies Mastered
 - **Programming:** Python, C/C++
 - **Data Science:** Dask, cprofiler,lineprofiler, memory profiler, numba jit, multithreading, CUDA
@@ -35,6 +32,7 @@ Performance optimization is important especially with an interpreted language li
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
 
