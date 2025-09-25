@@ -1,0 +1,59 @@
+Start date 1/05/2025
+
+Basic set up. 
+0 add original data
+1 col sex, ordinal encode
+2 no nulls
+3 delete duplicated rows
+4 log target
+
+
+Exp1 XGB
+2000 epochs, 5fold cv
+cv 0.05.. lb 0.07450
+
+Exp2 XGB 
+1000 epochs, 5fold CV
+cv 0.0567 lb 0.07608
+
+Exp3 XGB
+5000 epochs, 5fold cv
+cv 0.550 lb 0.07392
+
+- Did some light tuning
+- Tried removing the original data - got worse
+
+Exp4 XGB
+Change to non-transformed target and use RMSLE objective
+cv 0.0609 lb 0.0588
+
+Exp5 XGB
+Added stat and 2x cross features
+cv 0.0602 lb 0.5876
+
+
+exp20 Ridge2
+2x cross, div features
+cv 0.02240
+
+Exp21 Ridge3
+2x cross,div and 3x cross features
+cv 0.01999
+
+xgb-lgb1
+Kaggle notebook PS-S5E5: Triple Ensemble with CatBoost & XGBoost model1 preprocessing.
+Use noise reduction by groupby
+Add bmi and intensity features
+Add cross 2x features
+Do stratified cv
+
+
+
+
+
+
+
+
+
+
+
