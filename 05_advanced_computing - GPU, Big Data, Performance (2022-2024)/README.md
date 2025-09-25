@@ -1,12 +1,12 @@
-# [Phase Name] - [Time Period]
+# Performance - Phase 3 - (2022-2024)
 
 ## Phase Overview
-[Brief description of this learning phase and its objectives]
+Performance optimization is important especially with an interpreted language like Python. I explored different ways to increase performance like multi-threading, precompiling and GPU. For large data it's more about chunking when it doesn't fit in RAM.
 
 ## Learning Objectives
-- [Primary skill you aimed to develop]
-- [Secondary technologies explored]  
-- [Progression from previous phase]
+- Primary objbective was to execute code faster
+- Secondary objective was to analyze and process large amounts of data
+- Once basic data analysis is working, I wanted to analyze more data
 
 ## Key Projects
 
@@ -21,8 +21,8 @@
 
 ## Technologies Mastered
 - **Programming:** [Languages/frameworks]
-- **Data Science:** [ML libraries, statistical tools]
-- **Infrastructure:** [Deployment, cloud, databases]
+- **Data Science:** Dask, cprofiler,lineprofiler, memory profiler, numba jit, multithreading, CUDA
+- **Infrastructure:**
 
 ## Progression Notes
 - **From Previous Phase:** [How you built on prior learning]
@@ -35,3 +35,4 @@
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
