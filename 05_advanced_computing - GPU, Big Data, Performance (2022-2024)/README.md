@@ -10,7 +10,7 @@ Performance optimization is important especially with an interpreted language li
 
 ## Key Projects
 
-### [Project Name] ([Date Range])
+### MandelBrot Viz (05/02/2022-15/02/2022)
 **Technologies:** [List of tools used]
 **Description:** [Brief project summary]
 **Learning Focus:** [What this project taught you]
@@ -20,14 +20,14 @@ Performance optimization is important especially with an interpreted language li
 [Same format as above]
 
 ## Technologies Mastered
-- **Programming:** [Languages/frameworks]
+- **Programming:** Python, C/C++
 - **Data Science:** Dask, cprofiler,lineprofiler, memory profiler, numba jit, multithreading, CUDA
-- **Infrastructure:**
+- **Infrastructure:** 
 
 ## Progression Notes
-- **From Previous Phase:** [How you built on prior learning]
-- **Challenges Overcome:** [Key technical hurdles solved]
-- **Next Phase Setup:** [How this prepared you for next level]
+- **From Previous Phase:** This was applied to existing projects
+- **Challenges Overcome:** Learning about GPUs and CUDA, implementing code in C/C++
+- **Next Phase Setup:** This is required for larger data analysis projects
 
 ## Code Status & Next Steps
 ⚠️ **Note:** Some code in this phase is raw/unstructured from active learning period
@@ -35,4 +35,5 @@ Performance optimization is important especially with an interpreted language li
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
