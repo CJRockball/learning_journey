@@ -1,0 +1,13 @@
+xgb_hyperopt:
+  colsample_bytree: 0.30000000000000004
+  gamma: 0.8
+  learning_rate: 0.35000000000000003
+  max_depth: 19
+  min_child_weight: 6.0
+  n_estimators: 250
+  objective: binary:logistic
+  reg_alpha: 0.0001
+  reg_lambda: 16.0
+  scale_pos_weight: 19
+  seed: 42
+  subsample: 0.8
