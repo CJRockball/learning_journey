@@ -1,6 +1,6 @@
 # Patrick Carlberg – Data Science Learning Journey (2020–2025)
 
-> **Transforming a career gap into deep technical expertise, project-based learning, and modern AI pipelines.**
+> **Strategic skill development period for deep technical expertise, project-based learning, and modern AI pipelines.**
 <br>
 
 
