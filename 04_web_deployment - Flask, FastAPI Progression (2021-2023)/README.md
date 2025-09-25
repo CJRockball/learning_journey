@@ -10,18 +10,16 @@ Being able to display and share the results is important. In 2018 I started usin
 
 ## Key Projects
 
-### [Project Name] ([Date Range])
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
+### Serve Model for Taiwan Credit Card Dataset Predictions (23/12/2021-28/12/2021)
+**Technologies:** FastAPI, Docker, XGB, SQLite
+**Description:** Serve a model for prediction using FastAPI
+**Learning Focus:** Deploy a solution to the cloud with backend/frontend and a database
+**Status:** Complete for serving on Heroku
 
-### [Another Project] ([Date Range])
-[Same format as above]
 
 ## Technologies Mastered
 - **Programming:** Python, HTML, CSS
-- **Data Science:** FastAPI, Matplotlib, Seaborn, Bokeh, Pyplot
+- **Data Science:** FastAPI, Matplotlib, Seaborn, Bokeh, Pyplot, SQLite, Requests, HTTPx
 - **Infrastructure:** Docker, Hekoru
 
 ## Progression Notes
@@ -35,4 +33,5 @@ Being able to display and share the results is important. In 2018 I started usin
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
