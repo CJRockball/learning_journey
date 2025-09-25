@@ -1,33 +1,30 @@
-# [Phase Name] - [Time Period]
+# Kaggle Competitions - P{hase 4 - (2024-2025)
 
 ## Phase Overview
-[Brief description of this learning phase and its objectives]
+I started doing Kaggle playground competitions in May 2024 to work with fresh datasets and to get a benchmark for the prediction. The goal was never to win a competition, the goal was to learn to develop the best individual models. Playground has many good datasets, however recently is seems a number of them are based on pure random data, which is not very interesting. So, I also explored some "real" competitions.
 
 ## Learning Objectives
-- [Primary skill you aimed to develop]
-- [Secondary technologies explored]  
-- [Progression from previous phase]
+- Primary objective was to improve data analysis skills 
+- Improve specific aspects of machine learning such as transformers in neural networks for tabular data
+- This builds on the previous work with "standard" datasets
 
 ## Key Projects
 
 ### [Project Name] ([Date Range])
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
-
-### [Another Project] ([Date Range])
-[Same format as above]
+**Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
+**Description:** Kaggle competition s5e5. Making individual models and ensembles
+**Learning Focus:** Explored machine learning tools like XGB and Pytorch. Learned about feature engineering and ensembling
+**Status:** Raw Code
 
 ## Technologies Mastered
-- **Programming:** [Languages/frameworks]
-- **Data Science:** [ML libraries, statistical tools]
-- **Infrastructure:** [Deployment, cloud, databases]
+- **Programming:** Pure Python
+- **Data Science:** XGBoost, Pytorch, Pandas, Numpy, Polars, Matplolib, Seaborn, 
+- **Infrastructure:** 
 
 ## Progression Notes
-- **From Previous Phase:** [How you built on prior learning]
-- **Challenges Overcome:** [Key technical hurdles solved]
-- **Next Phase Setup:** [How this prepared you for next level]
+- **From Previous Phase:** Improving all basic aspects of data science cleaning data, feature engineering, modelling data, analysing model
+- **Challenges Overcome:** Larger dataset, about 1 miljon rows
+- **Next Phase Setup:** The best way to understand is to solve a large number of problems. Done that. Next step is research
 
 ## Code Status & Next Steps
 ⚠️ **Note:** Some code in this phase is raw/unstructured from active learning period
@@ -35,4 +32,5 @@
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
