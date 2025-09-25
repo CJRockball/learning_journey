@@ -16,8 +16,11 @@ I've always been interested in economy and finance, I studied it extensively at 
 **Learning Focus:** How practical valuation of options is done, mode experience with gpu calculations
 **Status:** Raw Code
 
-### [Another Project] ([Date Range])
-[Same format as above]
+### [Portfolio Optimization](https://github.com/CJRockball/Portfolio_optimization) (2020)
+**Technologies:** Flask, sqlite, Flask
+**Description:** Choose stocks, download save data to database, make portfolio calculations and visualizations, display online
+**Learning Focus:** Financial calculations, web, database
+**Status:** Complete
 
 ## Technologies Mastered
 - **Programming:** Python
@@ -35,4 +38,5 @@ I've always been interested in economy and finance, I studied it extensively at 
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
