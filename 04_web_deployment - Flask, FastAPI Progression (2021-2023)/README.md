@@ -1,4 +1,4 @@
-# Deployment - Phase 3 - (2021-2024)
+# Deployment - Phase 3 - (2021-2023)
 
 ## Phase Overview
 Being able to display and share the results is important. In 2018 I started using Flask for web projects. I took a coursera course in Django, but didn't like it. Then in 2021 I started transitioning to FastAPI. FastAPI is not only a web page frontend, it is also the foundation for many modern APIs. As a result of starting to explore FastAPI I also started using and setting up RESTful APIs. It also became natural to explore cloud deployment. 
@@ -33,5 +33,6 @@ Being able to display and share the results is important. In 2018 I started usin
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
