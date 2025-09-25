@@ -13,7 +13,7 @@ This repository documents my systematic journey from domain expert in nanotechno
 - **Modern Workflows:** Productionization via Docker, FastAPI, LangChain, and more
 - **Learning-in-Public:** Transparent record of raw code, refactoring, and skill development
 
-All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity.
+All raw project code is documented *as is* to reflect genuine skill progression. Folders are organized to highlight learning phases and technology stacks, with honest badges indicating code maturity. [TIMELINE.md](./TIMELINE.md)
 <br>
 <br>
 
