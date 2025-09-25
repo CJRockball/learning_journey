@@ -10,11 +10,11 @@ Performance optimization is important especially with an interpreted language li
 
 ## Key Projects
 
-### MandelBrot Viz (05/02/2022-15/02/2022)
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
+### [MandelBrot_Viz](https://github.com/CJRockball/Mandelbrot) (05/02/2022-15/02/2022)
+**Technologies:** Numba cuda, matplotlib
+**Description:** Create the fastest possible calculation of mandelbrot fractals to create graph with real time zoom
+**Learning Focus:** Learn how to use CUDA for calculations
+**Status:** Complete
 
 ### [Another Project] ([Date Range])
 [Same format as above]
@@ -35,5 +35,6 @@ Performance optimization is important especially with an interpreted language li
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
