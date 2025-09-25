@@ -16,8 +16,11 @@ Larger more integrated projects, applying AI agent technology. Thanks to agent s
 **Learning Focus:** More complete set up for serving online
 **Status:** Raw Code
 
-### [Another Project] ([Date Range])
-[Same format as above]
+### [RAG Chat](https://github.com/CJRockball/learning_journey/tree/main?tab=readme-ov-file) (15/07/2025-17/07/2025)
+**Technologies:** FastAPI, LangChain/LangGraph, ChromaDB, PyPDF, HTML/CSS, Docker, Gunicorn, Nginx, Redis
+**Description:** Basic RAG search with chat functionality
+**Learning Focus:** Agent RAG with vector database, PDF parsing, Advanced web functions gunicorn, nginx, redis 
+**Status:** Complete
 
 ## Technologies Mastered
 - **Programming:** Python, HTML, CSS
@@ -35,4 +38,5 @@ Larger more integrated projects, applying AI agent technology. Thanks to agent s
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
