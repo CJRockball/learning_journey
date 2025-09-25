@@ -19,7 +19,7 @@ Being able to display and share the results is important. In 2018 I started usin
 
 ## Technologies Mastered
 - **Programming:** Python, HTML, CSS
-- **Data Science:** FastAPI, Matplotlib, Seaborn, Bokeh, Pyplot, SQLite, Requests, HTTPx
+- **Data Science:** FastAPI, Matplotlib, Seaborn, Bokeh, Pyplot, SQLite, Requests, HTTPx, Websockets
 - **Infrastructure:** Docker, Hekoru
 
 ## Progression Notes
@@ -33,6 +33,7 @@ Being able to display and share the results is important. In 2018 I started usin
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
 
