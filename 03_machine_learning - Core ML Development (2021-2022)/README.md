@@ -10,11 +10,17 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 
 ## Key Projects
 
-### [Taiwan Credit Card Dataset] ([28/11/2021 - 28/12/2021])
+### Taiwan Credit Card Dataset (28/11/2021 - 28/12/2021)
 **Technologies:** XGboost, MLFlow, Shap
 **Description:** Classification with ETL
 **Learning Focus:** Learning to work through a datset, Separate functionality, 
 **Status:** This is raw code, need refactoring
+
+### NLP (18/07/2023 - 26/08/2023)
+**Technologies:** NLTK, SpaCy, Gensim, PyLDAvis
+**Description:** Learning based on the book Getting Started with Natural Language Processing by Ekataring Kochmar
+**Learning Focus:** Learning NLP
+**Status:** Raw Code
 
 ## Technologies Mastered
 - **Programming:** Python, HTML, GPU
@@ -32,6 +38,7 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
 
