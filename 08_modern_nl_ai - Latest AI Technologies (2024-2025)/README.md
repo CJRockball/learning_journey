@@ -22,6 +22,13 @@ Larger more integrated projects, applying AI agent technology. Thanks to agent s
 **Learning Focus:** Agent RAG with vector database, PDF parsing, Advanced web functions gunicorn, nginx, redis 
 **Status:** Complete
 
+### FT-Transformer (15/07/2025-17/07/2025)
+**Technologies:** Pytorch
+**Description:** Using FT-Transformer to predict tabular data, Kaggle s5e6
+**Learning Focus:** Learn to set up FT-Transformer from scratch, work with tenseors and transformers 
+**Status:** Raw Code
+
+
 ## Technologies Mastered
 - **Programming:** Python, HTML, CSS
 - **Data Science:** XGB, Pytorch, LangChain/LangGraph
@@ -38,5 +45,6 @@ Larger more integrated projects, applying AI agent technology. Thanks to agent s
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
