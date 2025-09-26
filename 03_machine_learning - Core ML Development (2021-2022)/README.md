@@ -10,7 +10,7 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 
 ## Key Projects
 
-### [Project Name] ([Date Range])
+### [Taiwan Credit Card Dataset] ([28/11/2021 - 28/12/2021])
 **Technologies:** XGboost, MLFlow, Shap
 **Description:** Classification with ETL
 **Learning Focus:** Learning to work through a datset, Separate functionality, 
@@ -32,6 +32,7 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 📝 **Documentation Status:** [Current state of project documentation]
 
 [Link to next phase] | [Back to main timeline]
+
 
 
 
