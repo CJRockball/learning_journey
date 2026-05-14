@@ -6,16 +6,12 @@
 
 ---
 
-> Structured certification programme spanning 2020–2026, covering the full data science stack — from statistical foundations to production ML, cloud architecture, and generative AI.
-
----
-
 ## Key Highlights
 
 - **60+ courses** across 6 years of continuous learning (Dec 2020 – Feb 2026)
 - **Recent cloud credentials** in AWS architecture and generative AI (2026)
 - **Institutions:** Imperial College London, University of Michigan, Google Cloud, AWS, UC Davis, Cloudera, EDHEC, HSE University, Databricks
-- **Focus areas:** Deep learning, probabilistic modelling, MLOps, cloud platforms, big data, statistical inference, and agentic AI
+- **Focus areas:** Deep learning, Machine learning, Probabilistic modelling, MLOps, Cloud platforms, Big data, Statistical inference, and Agentic AI
 
 ---
 
@@ -106,7 +102,7 @@
 
 ---
 
-## Additional Coursera Learning (No Certificate PDF)
+## Additional Coursera Learning
 
 A broader set of courses completed as part of the learning journey, organized by theme.
 
