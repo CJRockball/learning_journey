@@ -36,14 +36,15 @@ learning-journey/
 ├── TIMELINE.md                  # Chronological list of 70+ projects
 ├── GroupTimeline.md             # Projects sorted by library or subject 
 ├── coursera_certificates/       # Folder for certificate PDFs
-├── 01_foundations/              # Phase 1 – Python, Stats, Early ML (2020–2021)
-├── 02_machine_learning/         # Phase 2 – Core ML, XGB, PyTorch, TF (2021–2022)
-├── 03_web_deployment/           # Phase 3 – Flask/FastAPI, APIs, web apps (2021–2023)
-├── 04_advanced_computing/       # GPU/CUDA, Big Data, Optimization (2022–2024)
-├── 05_quantitative_finance/     # Financial ML, RL, time series (2020–2024)
-├── 06_kaggle_competitions/      # Competitive ML & public benchmarks (2021–2025)
-├── 07_modern_ml_ai/             # Modern AI (LLMs, LangChain, RAG, NLP) (2024–2025)
-├── 08_portfolio_showcase/       # Presentable, end-to-end project demos
+├── 01_coursera_certificates/    # Sample of Coursera certificates 
+├── 02_foundations/              # Phase 1 – Python, Stats, Early ML (2020–2021)
+├── 03_machine_learning/         # Phase 2 – Core ML, XGB, PyTorch, TF (2021–2022)
+├── 04_web_deployment/           # Phase 3 – Flask/FastAPI, APIs, web apps (2021–2023)
+├── 05_advanced_computing/       # GPU/CUDA, Big Data, Optimization (2022–2024)
+├── 06_quantitative_finance/     # Financial ML, RL, time series (2020–2024)
+├── 07_kaggle_competitions/      # Competitive ML & public benchmarks (2021–2025)
+├── 08_modern_ml_ai/             # Modern AI (LLMs, LangChain, RAG, NLP) (2024–2025)
+├── 09_portfolio_showcase/       # Presentable, end-to-end project demos
 ```
 <br>
 
