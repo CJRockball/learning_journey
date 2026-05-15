@@ -35,7 +35,6 @@ learning-journey/
 ├── README.md                    # Executive summary and navigation
 ├── TIMELINE.md                  # Chronological list of 70+ projects
 ├── GroupTimeline.md             # Projects sorted by library or subject 
-├── coursera_certificates/       # Folder for certificate PDFs
 ├── 01_coursera_certificates/    # Sample of Coursera certificates 
 ├── 02_foundations/              # Phase 1 – Python, Stats, Early ML (2020–2021)
 ├── 03_machine_learning/         # Phase 2 – Core ML, XGB, PyTorch, TF (2021–2022)
