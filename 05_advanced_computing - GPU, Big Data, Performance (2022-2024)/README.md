@@ -15,6 +15,11 @@ Performance optimization is important especially with an interpreted language li
 **Description:** Create the fastest possible calculation of mandelbrot fractals to create graph with real time zoom
 **Learning Focus:** Learn how to use CUDA for calculations
 **Status:** Complete
+### Janestreet ()
+**Technologies:** Dask, XGB, LGB
+**Description:** Working and training on large datasets
+**Learning Focus:** Learn how to use out-of-memory datasets
+**Status:** Closed
 
 ## Technologies Mastered
 - **Programming:** Python, C/C++
