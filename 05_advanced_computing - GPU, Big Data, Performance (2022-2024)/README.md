@@ -16,13 +16,13 @@ Performance optimization is important especially with an interpreted language li
 **Learning Focus:** Learn how to use CUDA for calculations
 **Status:** Complete
 
-### Janestreet ()
+### Janestreet (17/10/2024-01/11/2024)
 **Technologies:** Dask, XGB, LGB
 **Description:** Working and training on large datasets
 **Learning Focus:** Learn how to use out-of-memory datasets
 **Status:** Closed
 
-### Citi_bike ()
+### Citi_bike (02/11/2022-28/11/2022)
 **Technologies:** Dask, XGB, Tensorflow, ARIMA
 **Description:** Working and training on large datasets
 **Learning Focus:** Learn how to use out-of-memory datasets
