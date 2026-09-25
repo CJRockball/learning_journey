@@ -22,7 +22,7 @@ Performance optimization is important especially with an interpreted language li
 **Learning Focus:** Learn how to use out-of-memory datasets
 **Status:** Closed
 
-### Janestreet ()
+### Citi_bike ()
 **Technologies:** Dask, XGB, Tensorflow, ARIMA
 **Description:** Working and training on large datasets
 **Learning Focus:** Learn how to use out-of-memory datasets
