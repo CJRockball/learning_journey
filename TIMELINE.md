@@ -192,3 +192,15 @@
 - 21/04/2026 - 12/05/2026: Notebooks on GLMM 
 ---
 - 13/05/2026 - 14/05/2026: Update github
+- 22/05/2026 - 31/05/2026: Kaggle s6e5, full pipeline 
+---
+- 01/06/2026 - 30/06/2026: Kaggle s6e6, full pipeline
+---
+- 01/07/2026 - 31/07/2026: Kaggle s6e7, full pipeline
+---
+-07/08/2026 - 23/08/2026: Kaggle s6e8, full pipeline
+-24/08/2026 - 16/09/2026: Semcon dataset, full pipeline
+-17/09/2026 - AI4I dataset, generalize pipeline
+
+
+
