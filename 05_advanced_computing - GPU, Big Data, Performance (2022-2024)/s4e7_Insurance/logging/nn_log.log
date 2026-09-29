@@ -1,0 +1,479 @@
+2024-07-22 11:32:49,759 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 11:32:49,761 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 11:33:02,011 - logging/nn_log.log - INFO - Loading Data time: 12.249675273895264 
+2024-07-22 11:33:15,970 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 11:33:15,971 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 11:33:26,618 - logging/nn_log.log - INFO - Loading Data time: 10.646791934967041 
+2024-07-22 11:33:46,794 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 11:33:46,795 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 11:33:57,778 - logging/nn_log.log - INFO - Loading Data time: 10.98263669013977 
+2024-07-22 14:16:12,824 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:16:12,834 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 14:16:23,080 - logging/nn_log.log - INFO - Loading Data time: 10.24540114402771 
+2024-07-22 14:17:48,949 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:17:48,950 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 14:17:59,604 - logging/nn_log.log - INFO - Loading Data time: 10.653381109237671 
+2024-07-22 14:32:53,102 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:32:53,103 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0005
+2024-07-22 14:33:03,347 - logging/nn_log.log - INFO - Loading Data time: 10.243527889251709 
+2024-07-22 14:43:15,062 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:43:15,063 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 14:48:58,532 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:48:58,533 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 14:50:02,739 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:50:02,739 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 14:55:35,197 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 14:55:35,197 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:00:54,870 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:00:54,870 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:04:53,075 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:04:53,076 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:05:04,548 - logging/nn_log.log - INFO - Loading Data time: 11.471023321151733 
+2024-07-22 15:25:25,769 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:25:25,770 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:25:37,061 - logging/nn_log.log - INFO - Loading Data time: 11.289743423461914 
+2024-07-22 15:32:27,068 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:32:27,069 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:32:51,380 - logging/nn_log.log - INFO - Loading Data time: 24.309813022613525 
+2024-07-22 15:33:41,854 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:33:41,856 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:33:53,333 - logging/nn_log.log - INFO - Loading Data time: 11.477059364318848 
+2024-07-22 15:44:57,280 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:44:57,282 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:45:08,447 - logging/nn_log.log - INFO - Loading Data time: 11.164741277694702 
+2024-07-22 15:47:27,880 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:47:27,881 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:52:02,187 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:52:02,189 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:52:14,662 - logging/nn_log.log - INFO - Loading Data time: 12.472228288650513 
+2024-07-22 15:52:54,660 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:52:54,661 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:54:28,523 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:54:28,523 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 15:54:47,951 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 15:54:47,952 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:03:43,618 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:03:43,620 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:06:29,284 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:06:29,285 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:07:31,953 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:07:31,954 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:07:44,107 - logging/nn_log.log - INFO - Loading Data time: 12.153019666671753 
+2024-07-22 16:08:07,628 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:08:07,628 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:08:25,479 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:08:25,479 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:08:51,233 - logging/nn_log.log - INFO - Loading Data time: 25.75415587425232 
+2024-07-22 16:09:12,020 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:09:12,020 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:09:57,442 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:09:57,443 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:10:36,931 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:10:36,932 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:10:37,468 - logging/nn_log.log - INFO - Loading Data time: 0.5343425273895264 
+2024-07-22 16:34:38,438 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:34:38,440 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:35:52,196 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:35:52,196 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 16:35:52,781 - logging/nn_log.log - INFO - Loading Data time: 0.5845451354980469 
+2024-07-22 16:40:38,904 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 16:40:38,904 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:04:03,418 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:04:03,420 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=50000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:04:50,962 - logging/nn_log.log - INFO - Loading Data time: 47.54191470146179 
+2024-07-22 21:07:57,977 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:07:57,977 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=10000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:08:45,295 - logging/nn_log.log - INFO - Loading Data time: 47.31737971305847 
+2024-07-22 21:14:34,445 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:14:34,446 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=10000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:15:21,676 - logging/nn_log.log - INFO - Loading Data time: 47.2297146320343 
+2024-07-22 21:24:52,952 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:24:52,953 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=10000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:25:40,249 - logging/nn_log.log - INFO - Loading Data time: 47.29571461677551 
+2024-07-22 21:30:02,172 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:30:02,172 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=10000, Model: EPOOCHS=10, lr=0.0005
+2024-07-22 21:30:49,787 - logging/nn_log.log - INFO - Loading Data time: 47.61469578742981 
+2024-07-22 21:36:11,768 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 21:36:11,768 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=1e-05
+2024-07-22 21:36:59,654 - logging/nn_log.log - INFO - Loading Data time: 47.88552808761597 
+2024-07-22 22:15:22,375 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:15:22,396 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=1e-05
+2024-07-22 22:15:59,129 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:15:59,129 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=10, lr=1e-05
+2024-07-22 22:16:06,674 - logging/nn_log.log - INFO - Loading Data time: 7.5449159145355225 
+2024-07-22 22:17:15,177 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:17:15,179 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=100, lr=1e-05
+2024-07-22 22:17:23,002 - logging/nn_log.log - INFO - Loading Data time: 7.822565793991089 
+2024-07-22 22:20:22,201 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:20:22,201 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=100, lr=1e-05
+2024-07-22 22:20:29,966 - logging/nn_log.log - INFO - Loading Data time: 7.764947175979614 
+2024-07-22 22:22:27,166 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:22:27,167 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=100, lr=0.0001
+2024-07-22 22:22:34,779 - logging/nn_log.log - INFO - Loading Data time: 7.611723899841309 
+2024-07-22 22:25:48,047 - logging/nn_log.log - INFO - Starting Run
+2024-07-22 22:25:48,048 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-22 22:26:13,208 - logging/nn_log.log - INFO - Loading Data time: 25.16075301170349 
+2024-07-23 09:15:57,301 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI0 and data file
+2024-07-23 09:16:42,637 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI0 and data file
+2024-07-23 09:25:48,290 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 09:25:48,291 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 09:26:18,266 - logging/nn_log.log - INFO - Loading Data time: 29.97478675842285 
+2024-07-23 09:32:08,429 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 09:32:08,430 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 09:32:37,680 - logging/nn_log.log - INFO - Loading Data time: 29.250012159347534 
+2024-07-23 09:38:50,992 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI0 and data file
+2024-07-23 09:39:03,484 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_PI0 and saved to file.
+2024-07-23 09:42:34,235 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 09:42:34,235 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 09:43:00,762 - logging/nn_log.log - INFO - Loading Data time: 26.526777744293213 
+2024-07-23 09:46:21,807 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI1 and data file
+2024-07-23 09:53:33,362 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 09:53:33,363 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 09:53:57,061 - logging/nn_log.log - INFO - Loading Data time: 23.69740653038025 
+2024-07-23 10:00:18,057 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 10:00:18,057 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 10:00:41,351 - logging/nn_log.log - INFO - Loading Data time: 23.29415011405945 
+2024-07-23 10:04:45,729 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI1 and data file
+2024-07-23 10:04:53,753 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_PI1 and saved to file.
+2024-07-23 10:05:01,874 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 10:05:01,875 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 10:05:25,106 - logging/nn_log.log - INFO - Loading Data time: 23.230510234832764 
+2024-07-23 10:09:03,552 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 10:09:03,552 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 10:09:28,524 - logging/nn_log.log - INFO - Loading Data time: 24.97163486480713 
+2024-07-23 10:14:54,993 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI1 and data file
+2024-07-23 10:15:03,332 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_PI1 and saved to file.
+2024-07-23 10:27:18,787 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 10:27:18,788 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 10:27:43,081 - logging/nn_log.log - INFO - Loading Data time: 24.291550159454346 
+2024-07-23 10:34:27,239 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI1 and data file
+2024-07-23 10:34:35,311 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_PI1 and saved to file.
+2024-07-23 10:39:33,125 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 10:39:33,128 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 10:40:00,368 - logging/nn_log.log - INFO - Loading Data time: 27.240352630615234 
+2024-07-23 10:47:34,522 - logging/nn_log.log - INFO - Save model nn_emb_fd_PI0 and data file
+2024-07-23 10:47:43,350 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_PI0 and saved to file.
+2024-07-23 12:35:07,692 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 12:35:07,699 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 12:36:41,009 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 12:36:41,009 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 12:37:06,525 - logging/nn_log.log - INFO - Loading Data time: 25.51565384864807 
+2024-07-23 12:43:55,141 - logging/nn_log.log - INFO - Save model nn_emb_fd_VD0 and data file
+2024-07-23 12:44:03,652 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_VD0 and saved to file.
+2024-07-23 12:45:33,882 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 12:45:33,882 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 12:45:58,982 - logging/nn_log.log - INFO - Loading Data time: 25.0994930267334 
+2024-07-23 12:52:18,125 - logging/nn_log.log - INFO - Save model nn_emb_fd_VD1 and data file
+2024-07-23 12:52:26,603 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_VD1 and saved to file.
+2024-07-23 12:57:51,230 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 12:57:51,230 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 12:58:17,779 - logging/nn_log.log - INFO - Loading Data time: 26.548346042633057 
+2024-07-23 13:02:16,316 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 13:02:16,317 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 13:02:42,936 - logging/nn_log.log - INFO - Loading Data time: 26.61873698234558 
+2024-07-23 13:09:16,396 - logging/nn_log.log - INFO - Save model nn_emb_fd_VD1 and data file
+2024-07-23 13:09:24,706 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_VD1 and saved to file.
+2024-07-23 13:42:37,149 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 13:42:37,150 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 13:43:28,448 - logging/nn_log.log - INFO - Loading Data time: 51.29736542701721 
+2024-07-23 13:55:57,886 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-23 13:56:11,340 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_base and saved to file.
+2024-07-23 14:43:12,508 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 14:43:12,509 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 14:44:03,396 - logging/nn_log.log - INFO - Loading Data time: 50.88618302345276 
+2024-07-23 15:02:15,780 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 15:02:15,781 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=1e-05
+2024-07-23 15:03:06,664 - logging/nn_log.log - INFO - Loading Data time: 50.88259553909302 
+2024-07-23 15:07:45,421 - logging/nn_log.log - INFO - Starting Run
+2024-07-23 15:07:45,422 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-23 15:08:36,923 - logging/nn_log.log - INFO - Loading Data time: 51.50114893913269 
+2024-07-23 15:22:53,838 - logging/nn_log.log - INFO - Save model nn_emb_fd_base_old and data file
+2024-07-23 15:24:20,158 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_base and saved to file.
+2024-07-29 10:34:56,651 - logging/nn_log.log - INFO - Starting Run
+2024-07-29 10:34:56,660 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-29 10:38:10,064 - logging/nn_log.log - INFO - Starting Run
+2024-07-29 10:38:10,065 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-29 10:41:24,780 - logging/nn_log.log - INFO - Starting Run
+2024-07-29 10:41:24,780 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-29 10:42:29,588 - logging/nn_log.log - INFO - Loading Data time: 64.8076434135437 
+2024-07-29 10:55:01,594 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-29 10:55:15,786 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_addvar and saved to file.
+2024-07-30 10:56:20,916 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 10:56:20,918 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 10:56:46,060 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 10:56:46,061 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 10:56:54,070 - logging/nn_log.log - INFO - Loading Data time: 8.007405042648315 
+2024-07-30 10:59:35,497 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 10:59:35,498 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 10:59:43,305 - logging/nn_log.log - INFO - Loading Data time: 7.806923866271973 
+2024-07-30 11:56:53,261 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 11:57:06,811 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_equal01 and saved to file.
+2024-07-30 13:21:53,894 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 13:21:53,895 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 13:22:02,145 - logging/nn_log.log - INFO - Loading Data time: 8.249476909637451 
+2024-07-30 13:24:11,747 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 13:24:11,748 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 13:24:59,055 - logging/nn_log.log - INFO - Loading Data time: 47.3062801361084 
+2024-07-30 13:42:25,579 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 13:42:25,579 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 13:43:26,427 - logging/nn_log.log - INFO - Loading Data time: 60.84047245979309 
+2024-07-30 13:48:36,180 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 13:48:36,181 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 13:49:29,780 - logging/nn_log.log - INFO - Loading Data time: 53.59920001029968 
+2024-07-30 14:04:32,169 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 14:04:46,483 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_mostly_emb and saved to file.
+2024-07-30 14:17:53,271 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 14:17:53,306 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-30 14:19:14,298 - logging/nn_log.log - INFO - Loading Data time: 80.99165034294128 
+2024-07-30 14:28:41,519 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 14:28:41,519 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=16, lr=0.0001
+2024-07-30 14:30:04,260 - logging/nn_log.log - INFO - Loading Data time: 82.7403633594513 
+2024-07-30 14:38:03,374 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 14:38:03,375 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 14:39:30,276 - logging/nn_log.log - INFO - Loading Data time: 86.90080857276917 
+2024-07-30 14:49:46,930 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 14:50:01,679 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_mostly_addfeat4kag and saved to file.
+2024-07-30 15:31:00,332 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 15:31:00,341 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 15:32:22,514 - logging/nn_log.log - INFO - Loading Data time: 82.1710889339447 
+2024-07-30 15:43:32,711 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 15:43:32,711 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 15:44:54,791 - logging/nn_log.log - INFO - Loading Data time: 82.07952427864075 
+2024-07-30 15:49:24,261 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 15:49:24,262 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 15:50:45,639 - logging/nn_log.log - INFO - Loading Data time: 81.37677240371704 
+2024-07-30 15:57:52,762 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 15:57:52,763 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 15:58:52,020 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 15:58:52,021 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 15:59:46,388 - logging/nn_log.log - INFO - Loading Data time: 54.36695718765259 
+2024-07-30 16:06:30,268 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 16:06:43,436 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_orgvar_highbalance and saved to file.
+2024-07-30 16:09:38,611 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 16:09:38,613 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 16:10:35,959 - logging/nn_log.log - INFO - Loading Data time: 57.3453311920166 
+2024-07-30 16:18:41,501 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 16:18:41,501 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 16:19:38,410 - logging/nn_log.log - INFO - Loading Data time: 56.9079532623291 
+2024-07-30 16:26:41,966 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 16:26:41,966 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 16:27:36,810 - logging/nn_log.log - INFO - Loading Data time: 54.84378790855408 
+2024-07-30 22:31:55,805 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 22:31:55,815 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 22:32:58,793 - logging/nn_log.log - INFO - Loading Data time: 62.97784090042114 
+2024-07-30 22:34:58,290 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 22:34:58,291 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 22:35:58,604 - logging/nn_log.log - INFO - Loading Data time: 60.312182664871216 
+2024-07-30 22:43:37,638 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 22:44:13,187 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 22:44:26,285 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_all_emb and saved to file.
+2024-07-30 22:50:12,270 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 22:50:12,270 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 22:51:37,712 - logging/nn_log.log - INFO - Loading Data time: 85.44231843948364 
+2024-07-30 22:57:47,909 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 22:58:05,134 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-30 22:58:17,288 - logging/nn_log.log - INFO - Predicted on sub data with model sub_nn_emb_fd_all_emb_extvar and saved to file.
+2024-07-30 23:01:11,593 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:01:11,593 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-30 23:02:38,586 - logging/nn_log.log - INFO - Loading Data time: 86.9927921295166 
+2024-07-30 23:09:44,527 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:09:44,529 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.001
+2024-07-30 23:11:13,491 - logging/nn_log.log - INFO - Loading Data time: 88.96119451522827 
+2024-07-30 23:17:57,022 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:17:57,023 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=1e-05
+2024-07-30 23:19:26,430 - logging/nn_log.log - INFO - Loading Data time: 89.40683913230896 
+2024-07-30 23:24:35,255 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:24:35,255 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=5e-05
+2024-07-30 23:26:04,511 - logging/nn_log.log - INFO - Loading Data time: 89.25578784942627 
+2024-07-30 23:32:31,816 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:32:31,816 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=50000, Model: EPOOCHS=20, lr=5e-05
+2024-07-30 23:34:00,437 - logging/nn_log.log - INFO - Loading Data time: 88.62072110176086 
+2024-07-30 23:37:15,136 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:37:15,136 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=50000, Model: EPOOCHS=20, lr=0.005
+2024-07-30 23:38:42,505 - logging/nn_log.log - INFO - Loading Data time: 87.3692078590393 
+2024-07-30 23:41:38,408 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:41:38,408 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=1024, Model: EPOOCHS=20, lr=0.001
+2024-07-30 23:43:07,104 - logging/nn_log.log - INFO - Loading Data time: 88.69572949409485 
+2024-07-30 23:51:55,070 - logging/nn_log.log - INFO - Starting Run
+2024-07-30 23:51:55,070 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0005
+2024-07-30 23:53:23,139 - logging/nn_log.log - INFO - Loading Data time: 88.06858706474304 
+2024-07-31 09:13:02,427 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:13:02,428 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:14:15,868 - logging/nn_log.log - INFO - Loading Data time: 73.43898463249207 
+2024-07-31 09:15:53,829 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:15:53,829 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:16:55,581 - logging/nn_log.log - INFO - Loading Data time: 61.75156617164612 
+2024-07-31 09:33:55,594 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:33:55,594 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:34:13,214 - logging/nn_log.log - INFO - Loading Data time: 17.61919069290161 
+2024-07-31 09:41:49,172 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:41:49,172 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:42:06,084 - logging/nn_log.log - INFO - Loading Data time: 16.91194796562195 
+2024-07-31 09:43:24,920 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 09:43:37,126 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:43:37,126 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:43:54,712 - logging/nn_log.log - INFO - Loading Data time: 17.585800886154175 
+2024-07-31 09:45:23,476 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 09:45:35,424 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:45:35,424 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:45:53,653 - logging/nn_log.log - INFO - Loading Data time: 18.229093551635742 
+2024-07-31 09:47:26,176 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 09:47:37,945 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 09:47:37,945 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 09:47:54,750 - logging/nn_log.log - INFO - Loading Data time: 16.8046817779541 
+2024-07-31 09:49:29,938 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 10:40:59,873 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:40:59,875 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:43:24,176 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:43:24,177 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:43:41,821 - logging/nn_log.log - INFO - Loading Data time: 17.643208026885986 
+2024-07-31 10:47:19,782 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:47:19,782 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:47:37,761 - logging/nn_log.log - INFO - Loading Data time: 17.97826886177063 
+2024-07-31 10:50:08,029 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:50:08,030 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:50:28,851 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:50:28,852 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:50:41,331 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:50:41,331 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:50:49,149 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:50:49,151 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:51:06,986 - logging/nn_log.log - INFO - Loading Data time: 17.834150314331055 
+2024-07-31 10:54:42,361 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:54:42,361 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:54:50,351 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:54:50,352 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:54:55,779 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:54:55,779 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:55:01,833 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 10:55:01,834 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 10:55:20,285 - logging/nn_log.log - INFO - Loading Data time: 18.450373888015747 
+2024-07-31 11:06:20,104 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 11:06:20,104 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=20, lr=0.0001
+2024-07-31 11:06:37,778 - logging/nn_log.log - INFO - Loading Data time: 17.673103094100952 
+2024-07-31 11:08:17,901 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 11:08:17,902 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 11:08:35,817 - logging/nn_log.log - INFO - Loading Data time: 17.914360284805298 
+2024-07-31 11:15:52,194 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 11:15:52,194 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 11:15:57,578 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 11:15:57,579 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 11:16:15,508 - logging/nn_log.log - INFO - Loading Data time: 17.92852282524109 
+2024-07-31 11:16:54,745 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 11:16:54,745 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 11:17:12,051 - logging/nn_log.log - INFO - Loading Data time: 17.305575132369995 
+2024-07-31 12:38:50,955 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 12:38:50,957 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 12:38:59,833 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 12:38:59,835 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 12:39:17,786 - logging/nn_log.log - INFO - Loading Data time: 17.950979232788086 
+2024-07-31 12:44:43,204 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 12:44:43,204 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 12:45:00,267 - logging/nn_log.log - INFO - Loading Data time: 17.062746286392212 
+2024-07-31 13:37:23,521 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 13:37:23,522 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:40:45,873 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:40:45,874 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:41:30,434 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:41:30,434 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:41:47,335 - logging/nn_log.log - INFO - Loading Data time: 16.900405883789062 
+2024-07-31 14:43:02,159 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:43:12,455 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:43:12,455 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:43:28,972 - logging/nn_log.log - INFO - Loading Data time: 16.51663899421692 
+2024-07-31 14:44:44,420 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:44:55,037 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:44:55,037 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:45:11,425 - logging/nn_log.log - INFO - Loading Data time: 16.38733959197998 
+2024-07-31 14:46:29,633 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:46:40,324 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:46:40,324 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:46:56,996 - logging/nn_log.log - INFO - Loading Data time: 16.67180895805359 
+2024-07-31 14:48:15,986 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:48:26,846 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:48:26,847 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:48:43,302 - logging/nn_log.log - INFO - Loading Data time: 16.45472812652588 
+2024-07-31 14:50:03,613 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:50:14,422 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:50:14,422 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:50:31,372 - logging/nn_log.log - INFO - Loading Data time: 16.94976806640625 
+2024-07-31 14:51:52,793 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:52:03,628 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:52:03,628 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:52:21,128 - logging/nn_log.log - INFO - Loading Data time: 17.49954652786255 
+2024-07-31 14:53:42,170 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:53:53,088 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:53:53,089 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:54:09,859 - logging/nn_log.log - INFO - Loading Data time: 16.770357847213745 
+2024-07-31 14:55:32,911 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:55:43,934 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:55:43,934 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:56:00,728 - logging/nn_log.log - INFO - Loading Data time: 16.793848276138306 
+2024-07-31 14:57:25,156 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 14:57:36,057 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 14:57:36,057 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 14:57:53,457 - logging/nn_log.log - INFO - Loading Data time: 17.39961290359497 
+2024-07-31 14:59:17,770 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 21:55:10,756 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 21:55:10,758 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=30, lr=0.0001
+2024-07-31 21:55:26,968 - logging/nn_log.log - INFO - Loading Data time: 16.209792852401733 
+2024-07-31 21:56:55,257 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 21:56:55,257 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 21:57:11,754 - logging/nn_log.log - INFO - Loading Data time: 16.496711492538452 
+2024-07-31 22:00:36,668 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:00:36,668 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 22:00:53,217 - logging/nn_log.log - INFO - Loading Data time: 16.547696828842163 
+2024-07-31 22:04:05,570 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:04:05,570 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=50, lr=0.0001
+2024-07-31 22:04:21,796 - logging/nn_log.log - INFO - Loading Data time: 16.225433588027954 
+2024-07-31 22:07:08,275 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:07:08,277 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=200, lr=0.0001
+2024-07-31 22:07:24,908 - logging/nn_log.log - INFO - Loading Data time: 16.630501985549927 
+2024-07-31 22:17:57,887 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:17:57,887 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:18:14,053 - logging/nn_log.log - INFO - Loading Data time: 16.16568350791931 
+2024-07-31 22:20:25,863 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:20:37,072 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:20:37,073 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:20:53,305 - logging/nn_log.log - INFO - Loading Data time: 16.231525421142578 
+2024-07-31 22:23:06,493 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:23:17,368 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:23:17,368 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:23:33,385 - logging/nn_log.log - INFO - Loading Data time: 16.016378164291382 
+2024-07-31 22:25:45,414 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:25:56,188 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:25:56,188 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:26:12,389 - logging/nn_log.log - INFO - Loading Data time: 16.200239419937134 
+2024-07-31 22:28:28,518 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:28:39,102 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:28:39,103 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:28:55,814 - logging/nn_log.log - INFO - Loading Data time: 16.710504055023193 
+2024-07-31 22:31:10,396 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:31:21,244 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:31:21,244 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:31:38,703 - logging/nn_log.log - INFO - Loading Data time: 17.459022521972656 
+2024-07-31 22:33:52,950 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:34:03,789 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:34:03,789 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:34:20,027 - logging/nn_log.log - INFO - Loading Data time: 16.238056421279907 
+2024-07-31 22:36:37,902 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:36:48,672 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:36:48,673 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:37:04,670 - logging/nn_log.log - INFO - Loading Data time: 15.997299909591675 
+2024-07-31 22:39:22,539 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:39:33,187 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:39:33,187 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:39:49,996 - logging/nn_log.log - INFO - Loading Data time: 16.808146953582764 
+2024-07-31 22:42:06,024 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-07-31 22:42:16,808 - logging/nn_log.log - INFO - Starting Run
+2024-07-31 22:42:16,809 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-07-31 22:42:32,970 - logging/nn_log.log - INFO - Loading Data time: 16.160664319992065 
+2024-07-31 22:44:44,184 - logging/nn_log.log - INFO - Save model nn_emb_fd_base and data file
+2024-08-01 12:44:54,026 - logging/nn_log.log - INFO - Starting Run
+2024-08-01 12:44:54,028 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-08-01 12:47:10,186 - logging/nn_log.log - INFO - Starting Run
+2024-08-01 12:47:10,186 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-08-01 12:47:10,733 - logging/nn_log.log - INFO - Loading Data time: 0.5457913875579834 
+2024-08-01 12:47:30,707 - logging/nn_log.log - INFO - Starting Run
+2024-08-01 12:47:30,707 - logging/nn_log.log - INFO - Data: n=1000000, BATCH_SIZE=25000, Model: EPOOCHS=40, lr=0.0001
+2024-08-01 12:47:31,147 - logging/nn_log.log - INFO - Loading Data time: 0.4396803379058838 
