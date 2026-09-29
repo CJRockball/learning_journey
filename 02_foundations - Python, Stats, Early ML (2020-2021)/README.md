@@ -16,11 +16,11 @@ At university I studied a lot of math and computer science. I now started applyi
 **Learning Focus:** The main take away was starting to use databases for storing data
 **Status:** https://github.com/CJRockball/Stock_DB
 
-### [Another Project] ([Date Range])
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
+### Collection of Tensorflow Projects (2021-2023)
+**Technologies:** Tensorflow2, 
+**Description:** data processing and supervised prediction
+**Learning Focus:** Tensorflow, pipeline, serving
+**Status:** Closed
 
 
 ## Technologies Mastered
