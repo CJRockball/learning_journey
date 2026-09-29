@@ -28,6 +28,12 @@ Performance optimization is important especially with an interpreted language li
 **Learning Focus:** Learn how to use out-of-memory datasets
 **Status:** Closed
 
+### s4e7_Insurance (09/07/2024-01/08/2024)
+**Technologies:** line_profiler
+**Description:** Speed optimization of machine learning especially the torch files
+**Learning Focus:** 
+**Status:** Closed
+
 ## Technologies Mastered
 - **Programming:** Python, C/C++
 - **Data Science:** Dask, cprofiler,lineprofiler, memory profiler, numba jit, multithreading, CUDA
