@@ -12,25 +12,25 @@ I started doing Kaggle playground competitions in May 2024 to work with fresh da
 
 ### [Kaggle s3e18](https://github.com/CJRockball/learning_journey/tree/main/02_foundations%20-%20Python%2C%20Stats%2C%20Early%20ML%20(2020-2021)/Tensorflow/Kaggle%203_18%20Multi-Label%20Classification) (27/06/2023-01/07/2023)
 **Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
-**Description:** Kaggle competition s3e18, making individual models and optimizing pytorch
+**Description:**  Focus on getting individual gradient-boosted and PyTorch models working - earliest, unstructured stage.
 **Learning Focus:** Explored machine learning tools like XGB and Pytorch. 
 **Status:** Raw Code
 
 ### [Kaggle s4e7](https://github.com/CJRockball/learning_journey/tree/main/05_advanced_computing%20-%20GPU%2C%20Big%20Data%2C%20Performance%20(2022-2024)/s4e7_Insurance) (01/07/2024-31/07/2024)
 **Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
-**Description:** Kaggle competition s5e5. Making individual models and ensembles
+**Description:** Adds feature engineering and structured models; still raw code, a computational step up.
 **Learning Focus:** Explored machine learning tools like XGB and Pytorch. Learned about feature engineering and ensembling
 **Status:** Raw Code
 
 ### Kaggle s5e5 (03/05/2025-30/05/2025)
 **Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
-**Description:** Kaggle competition s5e5. Making individual models and ensembles
+**Description:** Adds ensembles and more structured pipeline. 
 **Learning Focus:** Explored machine learning tools like XGB and Pytorch. Learned about feature engineering and ensembling
 **Status:** Raw Code
 
 ### [Kaggle s6e7](https://github.com/CJRockball/s6e7_student_health/tree/main) (01/06/2026-30/06/2026)
 **Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
-**Description:** Kaggle competition s6e7, making full pipeline
+**Description:** Full pipeline, repeatable design, log documentation and traceability
 **Learning Focus:** Creating a repeatable design with log documentation and traceability
 **Status:** downloadable repeatable design
 
