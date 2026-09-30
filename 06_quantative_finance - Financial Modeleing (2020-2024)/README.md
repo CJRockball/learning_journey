@@ -37,6 +37,4 @@ I've always been interested in economy and finance, I studied it extensively at 
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
-
-
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/07_kaggle_competitions%20-%20Competitive%20ML%20(2021-2025))
