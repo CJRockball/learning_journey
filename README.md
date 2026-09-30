@@ -187,4 +187,3 @@ See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major mil
 
 ---
 
-**Contact:** • [https://github.com/CJRockball](https://github.com/CJRockball)
