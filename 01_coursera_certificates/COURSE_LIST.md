@@ -64,9 +64,9 @@
 - Data Visualization with Tableau Project, March 7 2021
 
 **Modern Big Data Analysis with SQL**, Cloudera
-Foundations for Big Data Analysis with SQL, Feb 14 2021
-Analyzing Big Data with SQL, Feb 16 2021
-Managing Big Data in Clusters and Cloud Storage, Feb 19 2021
+- Foundations for Big Data Analysis with SQL, Feb 14 2021
+- Analyzing Big Data with SQL, Feb 16 2021
+- Managing Big Data in Clusters and Cloud Storage, Feb 19 2021
 
 **Web Applications for Everybody**, Univeristy of Michigan
 - Building Web Applications in PHP, Dec 24 2020
@@ -94,14 +94,14 @@ Managing Big Data in Clusters and Cloud Storage, Feb 19 2021
 - Inferential Statistics, March 18 2021
 
 **Free Courses**
-Practical Predictive Analytics: Models and Methods, July 3 2020, University of Washington
-Introduction to Git and GitHub, Nov 10 2021, Google
-Python Classes and Inheritance, May 14 2021, University of Michigan
-Build a simple API-driven e-commerce application, Oct 6 2021, 
-TensorFlow Serving with Docker for Model Deployment, Sept 29 2021, 
-Introduction to PyMC3 for Bayesian Modeling and Inference, July 21, 2021, databricks
-Building Web Applications in Django, Jan 15 2021, University of Michigan
-Bayesian Methods for Machine Learning, July 27 2020, HSE University
+- Practical Predictive Analytics: Models and Methods, July 3 2020, University of Washington
+- Introduction to Git and GitHub, Nov 10 2021, Google
+- Python Classes and Inheritance, May 14 2021, University of Michigan
+- Build a simple API-driven e-commerce application, Oct 6 2021, 
+- TensorFlow Serving with Docker for Model Deployment, Sept 29 2021, 
+- Introduction to PyMC3 for Bayesian Modeling and Inference, July 21, 2021, databricks
+- Building Web Applications in Django, Jan 15 2021, University of Michigan
+- Bayesian Methods for Machine Learning, July 27 2020, HSE University
  
 
 
