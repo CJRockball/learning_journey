@@ -37,7 +37,7 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/04_web_deployment%20-%20Flask%2C%20FastAPI%20Progression%20(2021-2023))
 
 
 
