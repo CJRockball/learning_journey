@@ -22,7 +22,7 @@ I started doing Kaggle playground competitions in May 2024 to work with fresh da
 **Learning Focus:** Explored machine learning tools like XGB and Pytorch. Learned about feature engineering and ensembling
 **Status:** Raw Code
 
-### Kaggle s5e5 (03/05/2025-30/05/2025)
+### [Kaggle s5e5](https://github.com/CJRockball/learning_journey/tree/main/07_kaggle_competitions%20-%20Competitive%20ML%20(2021-2025)/Kaggle%20s5e5) (03/05/2025-30/05/2025)
 **Technologies:** XGBoost, LightGBM, CatBoost, Pytorch
 **Description:** Adds ensembles and more structured pipeline. 
 **Learning Focus:** Explored machine learning tools like XGB and Pytorch. Learned about feature engineering and ensembling
