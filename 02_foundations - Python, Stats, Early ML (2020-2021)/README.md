@@ -38,6 +38,6 @@ At university I studied a lot of math and computer science. I now started applyi
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/03_machine_learning)
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/03_machine_learning%20-%20Core%20ML%20Development%20(2021-2022))
 
 
