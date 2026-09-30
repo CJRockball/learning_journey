@@ -44,7 +44,4 @@ Larger more integrated projects, applying AI agent technology. Thanks to agent s
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
-
-
-
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/09_portfolio_showcase)
