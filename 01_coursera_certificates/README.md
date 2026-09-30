@@ -2,7 +2,7 @@
 
 > Certification programme spanning 2020–2026, covering the full data science stack —
 > from statistical foundations to production ML, cloud architecture, and generative AI.
-> 60+ courses completed in total — [view full course list →](./COURSE_LIST.md)
+> 60+ courses completed in total — [view full course list →]([./COURSE_LIST.md](https://github.com/CJRockball/learning_journey/blob/main/01_coursera_certificates/COURSE_LIST.md))
 
 ---
 
