@@ -32,7 +32,7 @@ Being able to display and share the results is important. In 2018 I started usin
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/05_advanced_computing%20-%20GPU%2C%20Big%20Data%2C%20Performance%20(2022-2024))
 
 
 
