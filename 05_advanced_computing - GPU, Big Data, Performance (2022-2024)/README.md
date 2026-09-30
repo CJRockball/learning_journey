@@ -49,8 +49,4 @@ Performance optimization is important especially with an interpreted language li
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
-
-
-
-
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/06_quantative_finance%20-%20Financial%20Modeleing%20(2020-2024))
