@@ -49,6 +49,4 @@ I started doing Kaggle playground competitions in May 2024 to work with fresh da
 🔄 **Refactoring Plan:** [Planned improvements to code organization]
 📝 **Documentation Status:** [Current state of project documentation]
 
-[Link to next phase] | [Back to main timeline]
-
-
+[Back to main timeline](https://github.com/CJRockball/learning_journey/tree/main) | [Link to next phase](https://github.com/CJRockball/learning_journey/tree/main/08_modern_nl_ai%20-%20Latest%20AI%20Technologies%20(2024-2025))
