@@ -10,6 +10,16 @@ Focus on different aspects of supervised learning. Trying different frameworks l
 
 ## Key Projects
 
+<details open>
+<summary><b>Taiwan Credit Card Dataset</b> (28/11/2021 - 28/12/2021)
+— <i>XGB, MLFlow, Shap</i></summary>
+
+ - **Goal:** Classification, Explainable ML and ETL
+ - **Takeaway:** Learning to work through a dataset and separate functionality
+ - **Status:** Raw code
+ - **Repository:** [Taiwan Credit Card Dataset](/Taiwan Credit Card Dataset/)
+</details>
+
 ### Taiwan Credit Card Dataset (28/11/2021 - 28/12/2021)
 **Technologies:** XGboost, MLFlow, Shap
 **Description:** Classification with ETL
