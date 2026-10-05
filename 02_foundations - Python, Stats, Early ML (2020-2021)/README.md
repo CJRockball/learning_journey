@@ -23,7 +23,7 @@ At university I studied a lot of math and computer science. I now started applyi
 
 - **Goal:** Supervised prediction and data processing
 - **Takeaway:** Model serving pipelines
-- **Repository:** [Tensorflow](/Tensorflow/)
+- **Repository:** [Tensorflow](./Tensorflow/)
 </details>
 
 
