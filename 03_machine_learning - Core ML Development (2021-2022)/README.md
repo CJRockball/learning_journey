@@ -17,7 +17,7 @@ Focus on different aspects of supervised learning. Trying different frameworks l
  - **Goal:** Classification, Explainable ML and ETL
  - **Takeaway:** Learning to work through a dataset and separate functionality
  - **Status:** Raw code
- - **Repository:** [Taiwan Credit Card Dataset](./NLP/)
+ - **Repository:** [Taiwan Credit Card Dataset](./Taiwan%20Credit%20Card%20Dataset/)
 </details>
 
 ### Taiwan Credit Card Dataset (28/11/2021 - 28/12/2021)
