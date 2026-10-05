@@ -22,7 +22,7 @@ At university I studied a lot of math and computer science. I now started applyi
 <summary><b>Tensorflow Projects</b> (2021–2023) — <i>TensorFlow 2</i></summary>
 
 - **Goal:** Supervised prediction and data processing
-- **Takeaway:** Model serving pipelines
+- **Takeaway:** Neural network structure and nomenclature
 - **Repository:** [Tensorflow](./Tensorflow/)
 </details>
 
