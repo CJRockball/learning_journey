@@ -11,10 +11,10 @@ At university I studied a lot of math and computer science. I now started applyi
 ## Key Projects
 
 ### Stock Database and Viz (11/2020)
-**Technologies:** Flask, SQLite, Yahoo Finance
-**Description:** The goal was to practice backend/frontend, integrating database, practice some portfolio math
-**Learning Focus:** The main take away was starting to use databases for storing data
-**Status:** https://github.com/CJRockball/Stock_DB
+* **Technologies:** Flask, SQLite, Yahoo Finance
+* **Description:** The goal was to practice backend/frontend, integrating database, practice some portfolio math
+* **Learning Focus:** The main take away was starting to use databases for storing data
+* **Status:** https://github.com/CJRockball/Stock_DB
 
 ### Collection of Tensorflow Projects (2021-2023)
 **Technologies:** Tensorflow2, 
