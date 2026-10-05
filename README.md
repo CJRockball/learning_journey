@@ -175,7 +175,7 @@ See [TIMELINE.md](./TIMELINE.md) for project-by-project progress, with major mil
 - [Complete Project Timeline](./TIMELINE.md): All projects, with dates and themes
 - [Group Timeline – by Tech/Library](./GroupTimeline.md)
 - [Coursera Certificates (Summary)](https://github.com/CJRockball/learning_journey/tree/main/01_coursera_certificates)
-- [Best Portfolio Projects](./08_portfolio_showcase/)
+- [Best Portfolio Projects](./09_portfolio_showcase/)
 - [GitHub Profile](https://github.com/CJRockball)
 <br>
 
