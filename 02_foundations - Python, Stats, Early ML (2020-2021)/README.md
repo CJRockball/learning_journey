@@ -10,17 +10,21 @@ At university I studied a lot of math and computer science. I now started applyi
 
 ## Key Projects
 
-> ### Stock Database and Viz (11/2020)
-> **Technologies:** Flask, SQLite, Yahoo Finance
-> **Description:** The goal was to practice backend/frontend, integrating database, practice some portfolio math
-> **Learning Focus:** The main take away was starting to use databases for storing data
-> **Status:** https://github.com/CJRockball/Stock_DB
+<details open>
+<summary><b>Stock Database and Viz</b> (11/2020) — <i>Flask, SQLite</i></summary>
 
-> ### Collection of Tensorflow Projects (2021-2023)
-> **Technologies:** Tensorflow2, 
-> **Description:** data processing and supervised prediction
-> **Learning Focus:** Tensorflow, pipeline, serving
-> **Status:** Closed
+- **Goal:** Backend/frontend integration and portfolio math
+- **Takeaway:** Database persistence patterns for financial data
+- **Repository:** [CJRockball/Stock_DB](https://github.com/CJRockball/Stock_DB)
+</details>
+
+<details>
+<summary><b>Tensorflow Projects</b> (2021–2023) — <i>TensorFlow 2</i></summary>
+
+- **Goal:** Supervised prediction and data processing
+- **Takeaway:** Model serving pipelines
+- **Status:** Closed
+</details>
 
 
 ## Technologies Mastered
