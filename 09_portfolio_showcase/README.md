@@ -10,14 +10,17 @@
 
 ## Key Projects
 
+### [semcon] (25/08/2026 - 16/10/2026)
+**Technologies:** Sqlite, SQLAlchemy, Pydantic, XGB, scipy, sklearn, statsmodels, pydoe, matplotlib, seaborn, dash
+**Description:** Exploration of the Secom semiconductor dataset
+**Learning Focus:** Setting up a full data exploration/modeling pipeline and explore different aspects of semiconductor data analysis
+**Status:** Complete
+
 ### [Project Name] ([Date Range])
 **Technologies:** [List of tools used]
 **Description:** [Brief project summary]
 **Learning Focus:** [What this project taught you]
 **Status:** [Complete/Raw Code/Documentation Needed]
-
-### [Another Project] ([Date Range])
-[Same format as above]
 
 ## Technologies Mastered
 - **Programming:** [Languages/frameworks]
