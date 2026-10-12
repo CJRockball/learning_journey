@@ -10,17 +10,24 @@
 
 ## Key Projects
 
-### [semcon] (25/08/2026 - 16/10/2026)
-**Technologies:** Sqlite, SQLAlchemy, Pydantic, XGB, scipy, sklearn, statsmodels, pydoe, matplotlib, seaborn, dash
-**Description:** Exploration of the Secom semiconductor dataset
-**Learning Focus:** Setting up a full data exploration/modeling pipeline and explore different aspects of semiconductor data analysis
-**Status:** Complete
+<details open>
+<summary><b>secom</b> (25/08/2026 - 16/10/2026) — <i>Flask, SQLite</i></summary>
 
-### [Project Name] ([Date Range])
-**Technologies:** [List of tools used]
-**Description:** [Brief project summary]
-**Learning Focus:** [What this project taught you]
-**Status:** [Complete/Raw Code/Documentation Needed]
+- **Technologies:** sqlite, SQLAlchemy, pydantic, XGB, scipy, sklearn, statsmodels, pydoe, matplotlib, seaborn, dash
+- **Description:** Exploration of the Secom semiconductor dataset
+- **Learning Focus:** Setting up a full data exploration/modeling pipeline and explore different aspects of semiconductor data analysis
+- **Repository:** [CJRockball/Stock_DB]([https://github.com/CJRockball/Stock_DB](https://github.com/CJRockball/semcon/tree/main))
+- **Status:** Complete
+</details>
+
+<details>
+<summary><b>Tensorflow Projects</b> (2021–2023) — <i>TensorFlow 2</i></summary>
+
+- **Goal:** Supervised prediction and data processing
+- **Takeaway:** Neural network structure and nomenclature
+- **Repository:** [Tensorflow](./Tensorflow/)
+</details>
+
 
 ## Technologies Mastered
 - **Programming:** [Languages/frameworks]
