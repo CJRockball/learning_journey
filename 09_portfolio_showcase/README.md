@@ -1,4 +1,4 @@
-# [Phase Name] - [Time Period]
+# [2020] - [Ongoing]
 
 ## Phase Overview
 [Brief description of this learning phase and its objectives]
