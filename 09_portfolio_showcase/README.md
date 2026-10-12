@@ -11,21 +11,23 @@
 ## Key Projects
 
 <details open>
-<summary><b>secom</b> (25/08/2026 - 16/10/2026) — <i>Flask, SQLite</i></summary>
+<summary><b>secom</b> (25/08/2026 - 16/10/2026) </summary>
 
-- **Technologies:** sqlite, SQLAlchemy, pydantic, XGB, scipy, sklearn, statsmodels, pydoe, matplotlib, seaborn, dash
 - **Description:** Exploration of the Secom semiconductor dataset
 - **Learning Focus:** Setting up a full data exploration/modeling pipeline and explore different aspects of semiconductor data analysis
-- **Repository:** [CJRockball/Stock_DB]([https://github.com/CJRockball/Stock_DB](https://github.com/CJRockball/semcon/tree/main))
+- **Technologies:** sqlite, SQLAlchemy, pydantic, XGB, scipy, sklearn, statsmodels, pydoe, matplotlib, seaborn, dash
+- **Repository:** [CJRockball/Stock_DB](https://github.com/CJRockball/semcon/tree/main)
 - **Status:** Complete
 </details>
 
 <details>
-<summary><b>Tensorflow Projects</b> (2021–2023) — <i>TensorFlow 2</i></summary>
+<summary><b>GLMM</b> (4/21/2026 – 12/5/2026) </summary>
 
-- **Goal:** Supervised prediction and data processing
-- **Takeaway:** Neural network structure and nomenclature
-- **Repository:** [Tensorflow](./Tensorflow/)
+- **Description:** Exploring generalized linear mixed models
+- **Learning Focus:** Statistical analysis and visualization
+- **Technologies:** statsmodels, PyMC, numpy, pandas, matplotlib
+- **Repository:** [CJRockball/stat_glmm](https://github.com/CJRockball/stat_glmm)
+- **Status:** Complete
 </details>
 
 
