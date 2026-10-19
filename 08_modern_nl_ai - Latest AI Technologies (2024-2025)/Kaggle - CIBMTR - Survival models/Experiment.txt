@@ -1,0 +1,25 @@
+Experiment log book
+
+Exp0 Baseline
+Estimate survival ranking ith KaplanMeierFitter
+XGB 5fold CV
+C-index = 0.676 LB 0.681
+
+Try to get a good survival ranking estimate. 
+Exp1 
+Start by testing cox PH. Fit and calc on full dataset
+Fit XGB on 5fold CV
+C-index = 0.624
+
+Exp2 
+Make fit cox ph in CV and esitmate on oof
+Fit XGB on 5fold CV
+Fit on 5fold CV
+C-index = 0.624 LB 0.626
+
+Exp3 
+Use NelsonAalen cumulative hazard
+Fit XGB on 5fold CV
+C-index = 0.670 LB 0.677
+
+
